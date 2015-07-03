@@ -58,7 +58,7 @@ def meta_convert(meta_level, size):
 
     # Queries execution:
     cur1.executemany("SELECT  it.typeID, it.typeName \
-                      FROM dgmtypeattributes dgm \
+                      FROM dgmTypeAttributes dgm \
                       JOIN invtypes it ON it.typeID = dgm.typeID \
                       JOIN invgroups ig ON ig.groupID = it.groupID \
                       WHERE dgm.attributeID = 633 \
@@ -70,7 +70,7 @@ def meta_convert(meta_level, size):
         # Second iteration - lootItemGroup file append.
         # Realy ugly formatting here, but can't be helped - writelines counts
         # the tabulations which makes resulting query look ugly
-        file_append.write("UPDATE dgmtypeattributes \n\
+        file_append.write("UPDATE dgmTypeAttributes \n\
                        SET valueINT = " + str(meta_level) +  "\n\
                        WHERE typeID = " + str(row[0]) + "\n\
                        AND attributeID = 633;")
