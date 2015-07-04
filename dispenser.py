@@ -3,7 +3,7 @@
  ------------------------------------------------------------------------------------
     LICENSE:
     ------------------------------------------------------------------------------------
-    This file is part of "Loot Disperser" - Python-based script, made for EVEMu - 
+    This file is part of "Loot Disperser" - Python-based script, made for EVEMu -
     an EVE Online Server emulator.
     Copyright 2006 - 2015 The EVEmu Team
     For the latest information visit http://evemu.org
@@ -33,11 +33,11 @@ import pymysql as sql
 # MySQL connection settings:
 sqlHost = 'localhost'
 sqlPort = 3306
-sqlUser = 'root'
-sqlPwd = ''
-sqlDb = 'evemu'
+sqlUser = 'allan'
+sqlPwd = 'none'
+sqlDb = 'eve_new_test'
 # File handler settings:
-workDir = 'D:/docs/'         # Address MUST contain a forward slash on the end
+workDir = '/usr/local/src/lootDispenser/working/'         # Address MUST contain a forward slash on the end
 # SQL connection setup and cursor definition:
 conn1 = sql.connect(host=sqlHost, port=sqlPort, user=sqlUser,
                     passwd=sqlPwd, db=sqlDb)
@@ -349,9 +349,9 @@ def loot_item_group_write(group_id, meta_level, size):
     # Queries execution:
     cur1.executemany("SELECT it.groupID, ig.groupName, it.typeID, \
                    it.typeName  \
-                   FROM dgmtypeattributes dgm \
-                   JOIN invtypes it ON it.typeID = dgm.typeID \
-                   JOIN invgroups ig ON ig.groupID = it.groupID \
+                   FROM dgmTypeAttributes dgm \
+                   JOIN invTypes it ON it.typeID = dgm.typeID \
+                   JOIN invGroups ig ON ig.groupID = it.groupID \
                    WHERE dgm.attributeID = 633 \
                    AND dgm.valueint = %s \
                    AND ig.groupID = %s \
