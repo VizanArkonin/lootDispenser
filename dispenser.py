@@ -33,11 +33,11 @@ import pymysql as sql
 # MySQL connection settings:
 sqlHost = 'localhost'
 sqlPort = 3306
-sqlUser = 'allan'
-sqlPwd = 'none'
-sqlDb = 'eve_new_test'
+sqlUser = 'root'
+sqlPwd = ''
+sqlDb = 'evemu'
 # File handler settings:
-workDir = '/usr/local/src/lootDispenser/working/'         # Address MUST contain a forward slash on the end
+workDir = 'D:/docs/'         # Address MUST contain a forward slash on the end
 # SQL connection setup and cursor definition:
 conn1 = sql.connect(host=sqlHost, port=sqlPort, user=sqlUser,
                     passwd=sqlPwd, db=sqlDb)
@@ -62,7 +62,7 @@ Sizes description:
 5 - Micro (for Shield Extenders)
 '''
 
-'''         invGroup values/size list start         '''
+'''         invGroup values/size list          '''
 
 # Weapons group sizes:
 # invGroup = 53 - Energy Weapons
@@ -89,10 +89,36 @@ hullArmorRepairerSizes = {1: 5, 2: 10, 3: 50}
 # Armor Plates (329) group sizes:
 armorPlateSizes = {1: 5, 2: 10, 3: 20}
 
-'''         invGroup values/size list end         '''
+
+'''         Size/moduleGroup binding library            '''
+
+# Standard (meta0-4) energy weapons library:
+energyWeaponGroups = {1: 1, 2: 2, 3: 3}
+
+# Standard (meta0-4) hybrid weapons library:
+hybridWeaponGroups = {1: 4, 2: 5, 3: 6}
+
+# Standard (meta0-4) projectile weapons library:
+projectileWeaponGroups = {1: 34, 2: 35, 3: 36}
+
+# Standard (meta0-4) armor repairers library:
+armorRepairerGroups = {1: 28, 2: 29, 3: 30}
+
+# Standard (meta0-4) hull repairers library:
+hullRepairerGroups = {1: 25, 2: 26, 3: 27}
+
+# Standard (meta0-4) shield extenders library:
+shieldExtenderGroups = {1: 18, 2: 19, 3: 20, 5: 17}
+
+# Standard (meta0-4) shield boosters library:
+shieldBoosterGroups = {1: 21, 2: 22, 3: 23, 4: 24}
+
+# Standard (meta0-4) armor plates library:
+armorPlateGroups = {1: 31, 2: 32, 3: 33}
+
 # ========================================================================== #
 
-'''        NPC invGroup values/sizes list start        '''
+'''        NPC invGroup values/sizes list           '''
 # npcInvGroupSizes dictionary - evaluates invGroup of NPC to respective
 # modules size. Note that this dict stores the invGroups of regular rats,
 # not including officers, deadspace overseers, convoys and commanders.
@@ -133,28 +159,13 @@ Author - AlTahir (aka DaVinci)
 def group_filter(group_id, size):
     if group_id == 53:                      # Energy Weapons
         module_size = str(WeaponSizes[size])
-        if size == 1:
-            module_group = str("1")
-        elif size == 2:
-            module_group = str("2")
-        elif size == 3:
-            module_group = str("3")
+        module_group = str(energyWeaponGroups[size])
     elif group_id == 74:                    # Hybrid Turrets
         module_size = str(WeaponSizes[size])
-        if size == 1:
-            module_group = str("4")
-        elif size == 2:
-            module_group = str("5")
-        elif size == 3:
-            module_group = str("6")
+        module_group = str(hybridWeaponGroups[size])
     elif group_id == 55:                     # Projectile Weapons
         module_size = str(WeaponSizes[size])
-        if size == 1:
-            module_group = str("34")
-        elif size == 2:
-            module_group = str("35")
-        elif size == 3:
-            module_group = str("36")
+        module_group = str(projectileWeaponGroups[size])
     elif group_id == 507:                   # Rocket Launchers
         module_size = str("5")
         module_group = str("10")
@@ -178,48 +189,19 @@ def group_filter(group_id, size):
         module_group = str("16")
     elif group_id == 62:                    # Armor Repairers
         module_size = str(hullArmorRepairerSizes[size])
-        if size == 1:
-            module_group = str("28")
-        elif size == 2:
-            module_group = str("29")
-        elif size == 3:
-            module_group = str("30")
+        module_group = str(armorRepairerGroups[size])
     elif group_id == 63:                    # Hull Repairers
         module_size = str(hullArmorRepairerSizes[size])
-        if size == 1:
-            module_group = str("25")
-        elif size == 2:
-            module_group = str("26")
-        elif size == 3:
-            module_group = str("27")
+        module_group = str(hullRepairerGroups[size])
     elif group_id == 38:                    # Shield Extenders
         module_size = str(shieldExtenderSizes[size])
-        if size == 1:
-            module_group = str("18")
-        elif size == 2:
-            module_group = str("19")
-        elif size == 3:
-            module_group = str("20")
-        elif size == 5:
-            module_group = str("17")
+        module_group = str(shieldExtenderGroups[size])
     elif group_id == 40:                    # Shield Boosters
         module_size = str(shieldBoosterSizes[size])
-        if size == 1:
-            module_group = str("21")
-        elif size == 2:
-            module_group = str("22")
-        elif size == 3:
-            module_group = str("23")
-        elif size == 4:
-            module_group = str("24")
+        module_group = str(shieldBoosterGroups[size])
     elif group_id == 329:                   # Armor Plates
         module_size = str(armorPlateSizes[size])
-        if size == 1:
-            module_group = str("31")
-        elif size == 2:
-            module_group = str("32")
-        elif size == 3:
-            module_group = str("33")
+        module_group = str(armorPlateGroups[size])
 
     return (module_size, module_group)
 
