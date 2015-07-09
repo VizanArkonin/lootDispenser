@@ -277,19 +277,19 @@ INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, i
 (560, "Asteroid Guristas Battleship", 0.5, 24, "X-Large Shield Booster");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
  VALUES 
-(550, "Asteroid Angel Cartel Frigate", 0.5, 34, "Small Projectile Weapon");
+(550, "Asteroid Angel Cartel Frigate", 0.5, 7, "Small Projectile Weapon");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
  VALUES 
-(575, "Asteroid Angel Cartel Destroyer", 0.5, 34, "Small Projectile Weapon");
+(575, "Asteroid Angel Cartel Destroyer", 0.5, 7, "Small Projectile Weapon");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
  VALUES 
-(551, "Asteroid Angel Cartel Cruiser", 0.5, 35, "Medium Projectile Weapon");
+(551, "Asteroid Angel Cartel Cruiser", 0.5, 8, "Medium Projectile Weapon");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
  VALUES 
-(576, "Asteroid Angel Cartel BattleCruiser", 0.5, 35, "Medium Projectile Weapon");
+(576, "Asteroid Angel Cartel BattleCruiser", 0.5, 8, "Medium Projectile Weapon");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
  VALUES 
-(552, "Asteroid Angel Cartel Battleship", 0.5, 36, "Large Projectile Weapon");
+(552, "Asteroid Angel Cartel Battleship", 0.5, 9, "Large Projectile Weapon");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
  VALUES 
 (550, "Asteroid Angel Cartel Frigate", 0.5, 18, "Small Shield Extender");

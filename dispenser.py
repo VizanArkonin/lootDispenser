@@ -99,7 +99,7 @@ energyWeaponGroups = {1: 1, 2: 2, 3: 3}
 hybridWeaponGroups = {1: 4, 2: 5, 3: 6}
 
 # Standard (meta0-4) projectile weapons library:
-projectileWeaponGroups = {1: 34, 2: 35, 3: 36}
+projectileWeaponGroups = {1: 7, 2: 8, 3: 9}
 
 # Standard (meta0-4) armor repairers library:
 armorRepairerGroups = {1: 28, 2: 29, 3: 30}
@@ -283,7 +283,7 @@ def loot_group_write(group_id, size, npc_group_id):
         module_group_name = str(moduleRow[1])
 
     # Now we insert the data in the file.
-    # Realy ugly formatting here, but can't be helped - writelines counts
+    # Really ugly formatting here, but can't be helped - writelines counts
     # the tabulations which makes resulting query look ugly
     first_file_append = open(loot_group_file, 'a')
     first_file_append.writelines("INSERT INTO lootGroup (npcGroupID, \
@@ -294,7 +294,7 @@ VALUES \n")
                                 + npc_group_name + '"' + ", "
                                 + "0.5" + ", "
                                 + module_group + ", " + '"'
-                                + module_group_name +'"' + ");")
+                                + module_group_name + '"' + ");")
     first_file_append.write('\n')
     # Closing the file.
     first_file_append.close()
@@ -350,7 +350,7 @@ def loot_item_group_write(group_id, meta_level, size):
     second_file_append = open(loot_item_group_file, 'a')
     for row in cur1:
         # Second iteration - lootItemGroup file append.
-        # Realy ugly formatting here, but can't be helped - writelines counts
+        # Really ugly formatting here, but can't be helped - writelines counts
         # the tabulations which makes resulting query look ugly
         second_file_append.writelines("INSERT INTO lootItemGroup (itemGroupID,\
  itemGroupName, itemID, itemName, itemMetaLevel,\

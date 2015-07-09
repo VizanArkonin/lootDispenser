@@ -235,223 +235,223 @@ INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMet
 (3, "Large Energy Weapon", 7171, "Tachyon Modulated Energy Beam I", 4, 0.1, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 484, "125mm Gatling AutoCannon I", 0, 0.8, 1, 1);
+(7, "Small Projectile Weapon", 484, "125mm Gatling AutoCannon I", 0, 0.8, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 485, "150mm Light AutoCannon I", 0, 0.8, 1, 1);
+(7, "Small Projectile Weapon", 485, "150mm Light AutoCannon I", 0, 0.8, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 486, "200mm AutoCannon I", 0, 0.8, 1, 1);
+(7, "Small Projectile Weapon", 486, "200mm AutoCannon I", 0, 0.8, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 487, "250mm Light Artillery Cannon I", 0, 0.8, 1, 1);
+(7, "Small Projectile Weapon", 487, "250mm Light Artillery Cannon I", 0, 0.8, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 488, "280mm Howitzer Artillery I", 0, 0.8, 1, 1);
+(7, "Small Projectile Weapon", 488, "280mm Howitzer Artillery I", 0, 0.8, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 489, "Dual 180mm AutoCannon I", 0, 0.8, 1, 1);
+(8, "Medium Projectile Weapon", 489, "Dual 180mm AutoCannon I", 0, 0.8, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 490, "220mm Vulcan AutoCannon I", 0, 0.8, 1, 1);
+(8, "Medium Projectile Weapon", 490, "220mm Vulcan AutoCannon I", 0, 0.8, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 491, "425mm AutoCannon I", 0, 0.8, 1, 1);
+(8, "Medium Projectile Weapon", 491, "425mm AutoCannon I", 0, 0.8, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9419, "720mm 'Probe' Artillery I", 0, 0.8, 1, 1);
+(8, "Medium Projectile Weapon", 9419, "720mm 'Probe' Artillery I", 0, 0.8, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9421, "720mm Cordite Howitzer I", 0, 0.8, 1, 1);
+(8, "Medium Projectile Weapon", 9421, "720mm Cordite Howitzer I", 0, 0.8, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 494, "Dual 425mm AutoCannon I", 0, 0.8, 1, 1);
+(9, "Large Projectile Weapon", 494, "Dual 425mm AutoCannon I", 0, 0.8, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 21559, "1200mm Heavy 'Jolt' Artillery I", 0, 0.8, 1, 1);
+(9, "Large Projectile Weapon", 21559, "1200mm Heavy 'Jolt' Artillery I", 0, 0.8, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 8785, "125mm Light Carbine Repeating Cannon I", 1, 0.6, 1, 1);
+(7, "Small Projectile Weapon", 8785, "125mm Light Carbine Repeating Cannon I", 1, 0.6, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 8817, "150mm Light Carbine Repeating Cannon I", 1, 0.6, 1, 1);
+(7, "Small Projectile Weapon", 8817, "150mm Light Carbine Repeating Cannon I", 1, 0.6, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 8865, "200mm Light Carbine Repeating Cannon I", 1, 0.6, 1, 1);
+(7, "Small Projectile Weapon", 8865, "200mm Light Carbine Repeating Cannon I", 1, 0.6, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 8905, "250mm Light Carbine Howitzer I", 1, 0.6, 1, 1);
+(7, "Small Projectile Weapon", 8905, "250mm Light Carbine Howitzer I", 1, 0.6, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 9413, "280mm Carbine Howitzer I", 1, 0.6, 1, 1);
+(7, "Small Projectile Weapon", 9413, "280mm Carbine Howitzer I", 1, 0.6, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9073, "Dual 180mm Carbine Repeating Cannon I", 1, 0.6, 1, 1);
+(8, "Medium Projectile Weapon", 9073, "Dual 180mm Carbine Repeating Cannon I", 1, 0.6, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9129, "220mm Medium Carbine Repeating Cannon I", 1, 0.6, 1, 1);
+(8, "Medium Projectile Weapon", 9129, "220mm Medium Carbine Repeating Cannon I", 1, 0.6, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9137, "425mm Medium Carbine Repeating Cannon I", 1, 0.6, 1, 1);
+(8, "Medium Projectile Weapon", 9137, "425mm Medium Carbine Repeating Cannon I", 1, 0.6, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9209, "650mm Medium Carbine Howitzer I", 1, 0.6, 1, 1);
+(8, "Medium Projectile Weapon", 9209, "650mm Medium Carbine Howitzer I", 1, 0.6, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9453, "720mm Carbine Howitzer I", 1, 0.6, 1, 1);
+(8, "Medium Projectile Weapon", 9453, "720mm Carbine Howitzer I", 1, 0.6, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9249, "Dual 425mm Carbine Repeating Cannon I", 1, 0.6, 1, 1);
+(9, "Large Projectile Weapon", 9249, "Dual 425mm Carbine Repeating Cannon I", 1, 0.6, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9289, "Dual 650mm Carbine Repeating Howitzer I", 1, 0.6, 1, 1);
+(9, "Large Projectile Weapon", 9289, "Dual 650mm Carbine Repeating Howitzer I", 1, 0.6, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9329, "800mm Heavy Carbine Repeating Howitzer I", 1, 0.6, 1, 1);
+(9, "Large Projectile Weapon", 9329, "800mm Heavy Carbine Repeating Howitzer I", 1, 0.6, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9369, "1200mm Heavy Carbine Howitzer I", 1, 0.6, 1, 1);
+(9, "Large Projectile Weapon", 9369, "1200mm Heavy Carbine Howitzer I", 1, 0.6, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9493, "1400mm Carbine Howitzer I", 1, 0.6, 1, 1);
+(9, "Large Projectile Weapon", 9493, "1400mm Carbine Howitzer I", 1, 0.6, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 8787, "125mm Light Gallium Machine Gun", 2, 0.5, 1, 1);
+(7, "Small Projectile Weapon", 8787, "125mm Light Gallium Machine Gun", 2, 0.5, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 8819, "150mm Light Gallium Machine Gun", 2, 0.5, 1, 1);
+(7, "Small Projectile Weapon", 8819, "150mm Light Gallium Machine Gun", 2, 0.5, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 8867, "200mm Light Gallium Machine Gun", 2, 0.5, 1, 1);
+(7, "Small Projectile Weapon", 8867, "200mm Light Gallium Machine Gun", 2, 0.5, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 8907, "250mm Light Gallium Cannon", 2, 0.5, 1, 1);
+(7, "Small Projectile Weapon", 8907, "250mm Light Gallium Cannon", 2, 0.5, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 9415, "280mm Gallium Cannon", 2, 0.5, 1, 1);
+(7, "Small Projectile Weapon", 9415, "280mm Gallium Cannon", 2, 0.5, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9091, "Dual 180mm Gallium Machine Gun", 2, 0.5, 1, 1);
+(8, "Medium Projectile Weapon", 9091, "Dual 180mm Gallium Machine Gun", 2, 0.5, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9131, "220mm Medium Gallium Machine Gun", 2, 0.5, 1, 1);
+(8, "Medium Projectile Weapon", 9131, "220mm Medium Gallium Machine Gun", 2, 0.5, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9139, "425mm Medium Gallium Machine Gun", 2, 0.5, 1, 1);
+(8, "Medium Projectile Weapon", 9139, "425mm Medium Gallium Machine Gun", 2, 0.5, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9211, "650mm Medium Gallium Cannon", 2, 0.5, 1, 1);
+(8, "Medium Projectile Weapon", 9211, "650mm Medium Gallium Cannon", 2, 0.5, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9455, "720mm Gallium Cannon", 2, 0.5, 1, 1);
+(8, "Medium Projectile Weapon", 9455, "720mm Gallium Cannon", 2, 0.5, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9251, "Dual 425mm Gallium Machine Gun", 2, 0.5, 1, 1);
+(9, "Large Projectile Weapon", 9251, "Dual 425mm Gallium Machine Gun", 2, 0.5, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9291, "Dual 650mm Gallium Repeating Cannon", 2, 0.5, 1, 1);
+(9, "Large Projectile Weapon", 9291, "Dual 650mm Gallium Repeating Cannon", 2, 0.5, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9331, "800mm Heavy Gallium Repeating Cannon", 2, 0.5, 1, 1);
+(9, "Large Projectile Weapon", 9331, "800mm Heavy Gallium Repeating Cannon", 2, 0.5, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9371, "1200mm Heavy Gallium Cannon", 2, 0.5, 1, 1);
+(9, "Large Projectile Weapon", 9371, "1200mm Heavy Gallium Cannon", 2, 0.5, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9495, "1400mm Gallium Cannon", 2, 0.5, 1, 1);
+(9, "Large Projectile Weapon", 9495, "1400mm Gallium Cannon", 2, 0.5, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 8789, "125mm Light Prototype Automatic Cannon", 3, 0.25, 1, 1);
+(7, "Small Projectile Weapon", 8789, "125mm Light Prototype Automatic Cannon", 3, 0.25, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 8821, "150mm Light Prototype Automatic Cannon", 3, 0.25, 1, 1);
+(7, "Small Projectile Weapon", 8821, "150mm Light Prototype Automatic Cannon", 3, 0.25, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 8869, "200mm Light Prototype Automatic Cannon", 3, 0.25, 1, 1);
+(7, "Small Projectile Weapon", 8869, "200mm Light Prototype Automatic Cannon", 3, 0.25, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 8909, "250mm Light Prototype Siege Cannon", 3, 0.25, 1, 1);
+(7, "Small Projectile Weapon", 8909, "250mm Light Prototype Siege Cannon", 3, 0.25, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 9417, "280mm Prototype Siege Cannon", 3, 0.25, 1, 1);
+(7, "Small Projectile Weapon", 9417, "280mm Prototype Siege Cannon", 3, 0.25, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9093, "Dual 180mm Prototype Automatic Cannon", 3, 0.25, 1, 1);
+(8, "Medium Projectile Weapon", 9093, "Dual 180mm Prototype Automatic Cannon", 3, 0.25, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9133, "220mm Medium Prototype Automatic Cannon", 3, 0.25, 1, 1);
+(8, "Medium Projectile Weapon", 9133, "220mm Medium Prototype Automatic Cannon", 3, 0.25, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9141, "425mm Medium Prototype Automatic Cannon", 3, 0.25, 1, 1);
+(8, "Medium Projectile Weapon", 9141, "425mm Medium Prototype Automatic Cannon", 3, 0.25, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9213, "650mm Medium Prototype Siege Cannon", 3, 0.25, 1, 1);
+(8, "Medium Projectile Weapon", 9213, "650mm Medium Prototype Siege Cannon", 3, 0.25, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9457, "720mm Prototype Siege Cannon", 3, 0.25, 1, 1);
+(8, "Medium Projectile Weapon", 9457, "720mm Prototype Siege Cannon", 3, 0.25, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9253, "Dual 425mm Prototype Automatic Cannon", 3, 0.25, 1, 1);
+(9, "Large Projectile Weapon", 9253, "Dual 425mm Prototype Automatic Cannon", 3, 0.25, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9293, "Dual 650mm Prototype Repeating Siege Cannon", 3, 0.25, 1, 1);
+(9, "Large Projectile Weapon", 9293, "Dual 650mm Prototype Repeating Siege Cannon", 3, 0.25, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9333, "800mm Heavy Prototype Repeating Siege Cannon", 3, 0.25, 1, 1);
+(9, "Large Projectile Weapon", 9333, "800mm Heavy Prototype Repeating Siege Cannon", 3, 0.25, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9373, "1200mm Heavy Prototype Artillery", 3, 0.25, 1, 1);
+(9, "Large Projectile Weapon", 9373, "1200mm Heavy Prototype Artillery", 3, 0.25, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9377, "1200mm Heavy Prototype Siege Cannon", 3, 0.25, 1, 1);
+(9, "Large Projectile Weapon", 9377, "1200mm Heavy Prototype Siege Cannon", 3, 0.25, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9497, "1400mm Prototype Siege Cannon", 3, 0.25, 1, 1);
+(9, "Large Projectile Weapon", 9497, "1400mm Prototype Siege Cannon", 3, 0.25, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 8759, "125mm Light 'Scout' Autocannon I", 4, 0.1, 1, 1);
+(7, "Small Projectile Weapon", 8759, "125mm Light 'Scout' Autocannon I", 4, 0.1, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 8815, "150mm Light 'Scout' Autocannon I", 4, 0.1, 1, 1);
+(7, "Small Projectile Weapon", 8815, "150mm Light 'Scout' Autocannon I", 4, 0.1, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 8863, "200mm Light 'Scout' Autocannon I", 4, 0.1, 1, 1);
+(7, "Small Projectile Weapon", 8863, "200mm Light 'Scout' Autocannon I", 4, 0.1, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 8903, "250mm Light 'Scout' Artillery I", 4, 0.1, 1, 1);
+(7, "Small Projectile Weapon", 8903, "250mm Light 'Scout' Artillery I", 4, 0.1, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(34, "Small Projectile Weapon", 9411, "280mm 'Scout' Artillery I", 4, 0.1, 1, 1);
+(7, "Small Projectile Weapon", 9411, "280mm 'Scout' Artillery I", 4, 0.1, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9071, "Dual 180mm 'Scout' Autocannon I", 4, 0.1, 1, 1);
+(8, "Medium Projectile Weapon", 9071, "Dual 180mm 'Scout' Autocannon I", 4, 0.1, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9127, "220mm Medium 'Scout' Autocannon I", 4, 0.1, 1, 1);
+(8, "Medium Projectile Weapon", 9127, "220mm Medium 'Scout' Autocannon I", 4, 0.1, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9135, "425mm Medium 'Scout' Autocannon I", 4, 0.1, 1, 1);
+(8, "Medium Projectile Weapon", 9135, "425mm Medium 'Scout' Autocannon I", 4, 0.1, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9207, "650mm Medium 'Scout' Artillery I", 4, 0.1, 1, 1);
+(8, "Medium Projectile Weapon", 9207, "650mm Medium 'Scout' Artillery I", 4, 0.1, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(35, "Medium Projectile Weapon", 9451, "720mm 'Scout' Artillery I", 4, 0.1, 1, 1);
+(8, "Medium Projectile Weapon", 9451, "720mm 'Scout' Artillery I", 4, 0.1, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9247, "Dual 425mm 'Scout' Autocannon I", 4, 0.1, 1, 1);
+(9, "Large Projectile Weapon", 9247, "Dual 425mm 'Scout' Autocannon I", 4, 0.1, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9287, "Dual 650mm 'Scout' Repeating Artillery I", 4, 0.1, 1, 1);
+(9, "Large Projectile Weapon", 9287, "Dual 650mm 'Scout' Repeating Artillery I", 4, 0.1, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9327, "800mm Heavy 'Scout' Repeating Artillery I", 4, 0.1, 1, 1);
+(9, "Large Projectile Weapon", 9327, "800mm Heavy 'Scout' Repeating Artillery I", 4, 0.1, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9367, "1200mm Heavy 'Scout' Artillery I", 4, 0.1, 1, 1);
+(9, "Large Projectile Weapon", 9367, "1200mm Heavy 'Scout' Artillery I", 4, 0.1, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
-(36, "Large Projectile Weapon", 9491, "1400mm 'Scout' Artillery I", 4, 0.1, 1, 1);
+(9, "Large Projectile Weapon", 9491, "1400mm 'Scout' Artillery I", 4, 0.1, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
 (4, "Small Hybrid Weapon", 561, "75mm Gatling Rail I", 0, 0.8, 1, 1);
