@@ -25,11 +25,14 @@
 
 # Import section:
 import pymysql as sql
+import time
+
 
 # ========================================================================== #
 #                            Config Section                                  #
 # ========================================================================== #
-
+# Starting the timer:
+start_time = time.time()
 # MySQL connection settings:
 sqlHost = 'localhost'
 sqlPort = 3306
@@ -90,31 +93,104 @@ hullArmorRepairerSizes = {1: 5, 2: 10, 3: 50}
 armorPlateSizes = {1: 5, 2: 10, 3: 20}
 
 
-'''         Size/moduleGroup binding library            '''
+#          Size/moduleGroup binding library            #
 
-# Standard (meta0-4) energy weapons library:
-energyWeaponGroups = {1: 1, 2: 2, 3: 3}
+'''
+Standard modules library - The double-key dictionary that binds certain
+invGroup and size to a correct lootItemGroup.
+The keys are next:
+1 - Item invGroup
+2 - Item size
+Author: AlTahir (aka DaVinci)
 
-# Standard (meta0-4) hybrid weapons library:
-hybridWeaponGroups = {1: 4, 2: 5, 3: 6}
+P.S. - Note that missile launchers are hard-coded to size = 1. It's made that
+way because missile launchers does not fracture by size within the same
+invGroup - all items within are of the same size.
+'''
 
-# Standard (meta0-4) projectile weapons library:
-projectileWeaponGroups = {1: 7, 2: 8, 3: 9}
+standardModuleLibrary = {(53, 1): 1,        # Small Energy Weapons
+                         (53, 2): 2,        # Medium Energy Weapons
+                         (53, 3): 3,        # Large Energy Weapons
+                         (74, 1): 4,        # Small Hybrid Weapons
+                         (74, 2): 5,        # Medium Hybrid Weapons
+                         (74, 3): 6,        # Large Hybrid Weapons
+                         (55, 1): 7,        # Small Projectile Weapons
+                         (55, 2): 8,        # Medium Projectile Weapons
+                         (55, 3): 9,        # Large Projectile Weapons
+                         (507, 1): 10,      # Rocket Launchers
+                         (509, 1): 11,      # Light Missile Launchers
+                         (511, 1): 12,      # Rapid Light Missile Launchers
+                         (510, 1): 13,      # Heavy Missile Launchers
+                         (771, 1): 14,      # Heavy Assault Missile Launchers
+                         (506, 1): 15,      # Cruise Missile Launchers
+                         (508, 1): 16,      # Torpedo Launchers
+                         (38, 5): 17,       # Micro Shield Extenders
+                         (38, 1): 18,       # Small Shield Extenders
+                         (38, 2): 19,       # Medium Shield Extenders
+                         (38, 3): 20,       # Large Shield Extenders
+                         (40, 1): 21,       # Small Shield Boosters
+                         (40, 2): 22,       # Medium Shield Boosters
+                         (40, 3): 23,       # Large Shield Boosters
+                         (40, 4): 24,       # X-Large Shield Boosters
+                         (63, 1): 25,       # Small Hull Repairers
+                         (63, 2): 26,       # Medium Hull Repairers
+                         (63, 3): 27,       # Large Hull Repairers
+                         (62, 1): 28,       # Small Armor Repairers
+                         (62, 2): 29,       # Medium Armor Repairers
+                         (62, 3): 30,       # Large Armor Repairers
+                         (329, 1): 31,      # Small Armor Plates
+                         (329, 2): 32,      # Medium Armor Plates
+                         (329, 3): 33,      # Large Armor Plates
+                         }
 
-# Standard (meta0-4) armor repairers library:
-armorRepairerGroups = {1: 28, 2: 29, 3: 30}
+'''
+Faction modules library - The double-key dictionary that binds certain
+invGroup and size to a correct lootItemGroup.
+The keys are next:
+1 - Item invGroup
+2 - Item size
+3 - Faction ID (from factionNamesFilter)
+Author: AlTahir (aka DaVinci)
 
-# Standard (meta0-4) hull repairers library:
-hullRepairerGroups = {1: 25, 2: 26, 3: 27}
+P.S. - Note that missile launchers are hard-coded to size = 1. It's made that
+way because missile launchers does not fracture by size within the same
+invGroup - all items within are of the same size.
+P.P.S - Now the dict is not filled with all faction stuff available.
+'''
 
-# Standard (meta0-4) shield extenders library:
-shieldExtenderGroups = {1: 18, 2: 19, 3: 20, 5: 17}
+factionModuleLibrary = {(53, 1, 3): 34,  # True Sansha Small Energy Weapon
+                        (53, 2, 3): 36,  # True Sansha Medium Energy Weapon
+                        (53, 3, 3): 38,  # True Sansha Medium Energy Weapon
+                        (53, 1, 2): 35,  # Dark Blood Small Energy Weapon
+                        (53, 2, 2): 37,  # Dark Blood Medium Energy Weapon
+                        (53, 3, 2): 39,  # Dark Blood Large Energy Weapon
+                        (74, 1, 4): 40,  # Dread Guristas Small Hybrid Weapon
+                        (74, 2, 4): 42,  # Dread Guristas Medium Hybrid Weapon
+                        (74, 3, 4): 44,  # Dread Guristas Large Hybrid Weapon
+                        (74, 1, 5): 41,  # Shadow Serpentis Small Hybrid Weapon
+                        (74, 2, 5): 43,  # Shadow Serpentis Medium Hybrid Weapon
+                        (74, 3, 5): 45,  # Shadow Serpentis Large Hybrid Weapon
+                        (55, 1, 1): 46,  # Domination Small Projectile Weapon
+                        (55, 2, 1): 47,  # Domination Medium Projectile Weapon
+                        (55, 3, 1): 48,  # Domination Large Projectile Weapon
+                        }
 
-# Standard (meta0-4) shield boosters library:
-shieldBoosterGroups = {1: 21, 2: 22, 3: 23, 4: 24}
 
-# Standard (meta0-4) armor plates library:
-armorPlateGroups = {1: 31, 2: 32, 3: 33}
+#           Names binding library           #
+
+'''
+Faction items name binding library - dictionary, which contains the name
+bindings for faction modules
+Author: AlTahir (aka DaVinci)
+'''
+
+factionNamesFilter = {0: 'Regular',
+                      1: 'Domination',
+                      2: 'Dark Blood',
+                      3: 'True Sansha',
+                      4: 'Dread Guristas',
+                      5: 'Shadow Serpentis'
+                      }
 
 # ========================================================================== #
 
@@ -156,54 +232,39 @@ Author - AlTahir (aka DaVinci)
 '''
 
 
-def group_filter(group_id, size):
+def size_filter(group_id, size):
     if group_id == 53:                      # Energy Weapons
         module_size = str(WeaponSizes[size])
-        module_group = str(energyWeaponGroups[size])
     elif group_id == 74:                    # Hybrid Turrets
         module_size = str(WeaponSizes[size])
-        module_group = str(hybridWeaponGroups[size])
     elif group_id == 55:                     # Projectile Weapons
         module_size = str(WeaponSizes[size])
-        module_group = str(projectileWeaponGroups[size])
     elif group_id == 507:                   # Rocket Launchers
         module_size = str("5")
-        module_group = str("10")
     elif group_id == 509:                   # Light Missiles
         module_size = str("5")
-        module_group = str("11")
     elif group_id == 510:                   # Heavy Missiles
         module_size = str("10")
-        module_group = str("13")
     elif group_id == 511:                   # Rapid Light Missile Launchers
         module_size = str("10")
-        module_group = str("12")
     elif group_id == 771:                   # Heavy Assault Missile Launchers
         module_size = str("10")
-        module_group = str("14")
     elif group_id == 506:                   # Cruise Missile Launchers
         module_size = str("20")
-        module_group = str("15")
     elif group_id == 508:                   # Torpedo Launchers
         module_size = str("20")
-        module_group = str("16")
     elif group_id == 62:                    # Armor Repairers
         module_size = str(hullArmorRepairerSizes[size])
-        module_group = str(armorRepairerGroups[size])
     elif group_id == 63:                    # Hull Repairers
         module_size = str(hullArmorRepairerSizes[size])
-        module_group = str(hullRepairerGroups[size])
     elif group_id == 38:                    # Shield Extenders
         module_size = str(shieldExtenderSizes[size])
-        module_group = str(shieldExtenderGroups[size])
     elif group_id == 40:                    # Shield Boosters
         module_size = str(shieldBoosterSizes[size])
-        module_group = str(shieldBoosterGroups[size])
     elif group_id == 329:                   # Armor Plates
         module_size = str(armorPlateSizes[size])
-        module_group = str(armorPlateGroups[size])
 
-    return (module_size, module_group)
+    return module_size
 
 
 # ========================================================================== #
@@ -259,12 +320,23 @@ Author - AlTahir(aka DaVinci)
 '''
 
 
-def loot_group_write(group_id, size, npc_group_id):
+def loot_group_write(group_id, size, npc_group_id, mode, faction):
     # Output file setup:
     loot_group_file = workDir + 'lootGroup.sql'
     # Defining the sizes and group, based on volumes for different invGroups.
-    # Using the separate library function to do the job now:
-    module_size, module_group = group_filter(group_id, size)
+    # Using the separate library function to do the job now.
+    # NOTE: Gonna need to re-write it later and remove a duplicate.
+    if mode == 1:
+        if faction in (1, 2, 3, 4, 5):
+            module_group = factionModuleLibrary[group_id, size, faction]
+        elif faction == 0:
+            module_group = standardModuleLibrary[group_id, size]
+        else:
+            print('Wrong faction specified')
+    elif mode == 0:
+        module_group = standardModuleLibrary[group_id, size]
+    else:
+        print('Wrong mode specified')
 
     # Executing queries:
     cur2.executemany("SELECT groupID, groupName FROM invGroups\
@@ -293,7 +365,7 @@ VALUES \n")
     first_file_append.write("(" + str(npc_group_id) + ", " + '"'
                                 + npc_group_name + '"' + ", "
                                 + "0.5" + ", "
-                                + module_group + ", " + '"'
+                                + str(module_group) + ", " + '"'
                                 + module_group_name + '"' + ");")
     first_file_append.write('\n')
     # Closing the file.
@@ -308,13 +380,24 @@ Author - AlTahir(aka DaVinci)
 '''
 
 
-def loot_item_group_write(group_id, meta_level, size):
+def loot_item_group_write(group_id, meta_level, size, mode, faction):
     # Output file setup:
     loot_item_group_file = workDir + 'lootItemGroup.sql'
 
     # Defining the sizes and group, based on volumes for different invGroups:
     # Using the separate library function to do the job now:
-    module_size, module_group = group_filter(group_id, size)
+    if mode == 1:
+        if faction in (1, 2, 3, 4, 5):
+            module_group = factionModuleLibrary[group_id, size, faction]
+        elif faction == 0:
+            module_group = standardModuleLibrary[group_id, size]
+        else:
+            print('Wrong faction specified')
+    elif mode == 0:
+        module_group = standardModuleLibrary[group_id, size]
+    else:
+        print('Wrong mode specified')
+    module_size = size_filter(group_id, size)
 
     # Defining the chances:
     if meta_level == 0:
@@ -327,6 +410,10 @@ def loot_item_group_write(group_id, meta_level, size):
         drop_chance = 0.25   # meta-3 = 25%
     elif meta_level == 4:
         drop_chance = 0.1    # meta-4 = 10%
+    elif meta_level == 7:
+        drop_chance = 0.15   # Faction stuff = 15%
+    elif meta_level == 8:
+        drop_chance = 0.15   # Faction projectiles = 15%
 
     # Queries execution:
     cur1.executemany("SELECT it.groupID, ig.groupName, it.typeID, \
@@ -352,17 +439,34 @@ def loot_item_group_write(group_id, meta_level, size):
         # Second iteration - lootItemGroup file append.
         # Really ugly formatting here, but can't be helped - writelines counts
         # the tabulations which makes resulting query look ugly
-        second_file_append.writelines("INSERT INTO lootItemGroup (itemGroupID,\
- itemGroupName, itemID, itemName, itemMetaLevel,\
+        if mode == 0:
+            second_file_append.writelines("INSERT INTO lootItemGroup ( \
+ itemGroupID,itemGroupName, itemID, itemName, itemMetaLevel,\
  itemDropChance, minAmount, maxAmount) \n \
  VALUES \n")
-        second_file_append.write("(" + module_group + ", " + '"'
-                                 + module_group_name + '"' + ", "
-                                 + str(row[2]) + ", " + '"'
-                                 + str(row[3]) + '"' + ", "
-                                 + str(meta_level) + ", " + str(drop_chance)
-                                 + ", " + "1, 1" + ");")
-        second_file_append.write('\n')
+            second_file_append.write("(" + str(module_group) + ", " + '"'
+                                     + module_group_name + '"' + ", "
+                                     + str(row[2]) + ", " + '"'
+                                     + str(row[3]) + '"' + ", "
+                                     + str(meta_level) + ", " + str(drop_chance)
+                                     + ", " + "1, 1" + ");")
+            second_file_append.write('\n')
+        elif mode == 1:
+            if factionNamesFilter[faction] in row[3]:
+                second_file_append.writelines("INSERT INTO lootItemGroup \
+(itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,\
+itemDropChance, minAmount, maxAmount) \n \
+ VALUES \n")
+                second_file_append.write("(" + str(module_group) + ", " + '"'
+                                         + module_group_name + '"' + ", "
+                                         + str(row[2]) + ", " + '"'
+                                         + str(row[3]) + '"' + ", "
+                                         + str(meta_level) + ", "
+                                         + str(drop_chance)
+                                         + ", " + "1, 1" + ");")
+                second_file_append.write('\n')
+        else:
+            print('Wrong mode specified')
 
     # Closing the file
     second_file_append.close()
@@ -394,68 +498,121 @@ file_сreate()
 for moduleGroup in (53, 55, 74, 38, 40, 62, 63, 329):
     for metaLevel in (0, 1, 2, 3, 4):
         for size in (1, 2, 3):
-            loot_item_group_write(moduleGroup, metaLevel, size)
+            loot_item_group_write(moduleGroup, metaLevel, size, 0, 0)
 # Separate loops for missile launchers (prevents query duplicating):
 for moduleGroup in (507, 509, 511, 510, 771, 506, 508):
     for metaLevel in (0, 1, 2, 3, 4):
-        loot_item_group_write(moduleGroup, metaLevel, 1)
+        loot_item_group_write(moduleGroup, metaLevel, 1, 0, 0)
 # Separate loops for XL-SB's and micro-SE's:
 for metaLevel in (0, 1, 2, 3, 4):
-        loot_item_group_write(38, metaLevel, 5)
-        loot_item_group_write(40, metaLevel, 4)
+        loot_item_group_write(38, metaLevel, 5, 0, 0)
+        loot_item_group_write(40, metaLevel, 4, 0, 0)
+# Bulk dump of all faction module groups.
+for size in (1, 2, 3):
+    for faction in (2, 3):
+        loot_item_group_write(53, 8, size, 1, faction)
+    for faction in (4, 5):
+        loot_item_group_write(74, 8, size, 1, faction)
+    loot_item_group_write(55, 7, size, 1, 1)
+
 
 # NPC groups assignment - Asteroid BR and Sansha:
 for itemGroup in (53, 62, 63, 329):
-    for npcGroup in (557, 577, 567, 581):
-        loot_group_write(itemGroup, 1, npcGroup)
-    for npcGroup in (555, 578, 566, 582):
-        loot_group_write(itemGroup, 2, npcGroup)
-    for npcGroup in (556, 565):
-        loot_group_write(itemGroup, 3, npcGroup)
+    for npcGroup in (557, 577, 567, 581, 792, 796, 810, 809):
+        loot_group_write(itemGroup, 1, npcGroup, 0, 0)
+    for npcGroup in (555, 578, 566, 582, 791, 795, 808, 807):
+        loot_group_write(itemGroup, 2, npcGroup, 0, 0)
+    for npcGroup in (556, 565, 849, 851):
+        loot_group_write(itemGroup, 3, npcGroup, 0, 0)
 
 # NPC groups assignment - Asteroid Serpentis:
 for itemGroup in (74, 62, 63, 329):
-    for npcGroup in (572, 583):
-        loot_group_write(itemGroup, 1, npcGroup)
-    for npcGroup in (571, 584):
-        loot_group_write(itemGroup, 2, npcGroup)
-    loot_group_write(itemGroup, 3, 570)
+    for npcGroup in (572, 583, 814, 813):
+        loot_group_write(itemGroup, 1, npcGroup, 0, 0)
+    for npcGroup in (571, 584, 812, 811):
+        loot_group_write(itemGroup, 2, npcGroup, 0, 0)
+    loot_group_write(itemGroup, 3, 570, 0, 0)
+    loot_group_write(itemGroup, 3, 852, 0, 0)
 
 # NPC groups assignment - Asteroid Guristas:
 for itemGroup in (74, 38, 40):
-    for npcGroup in (562, 579):
-        loot_group_write(itemGroup, 1, npcGroup)
-    for npcGroup in (561, 580):
-        loot_group_write(itemGroup, 2, npcGroup)
-    loot_group_write(itemGroup, 3, 560)
+    for npcGroup in (562, 579, 800, 799):
+        loot_group_write(itemGroup, 1, npcGroup, 0, 0)
+    for npcGroup in (561, 580, 798, 797):
+        loot_group_write(itemGroup, 2, npcGroup, 0, 0)
+    loot_group_write(itemGroup, 3, 560, 0, 0)
+    loot_group_write(itemGroup, 3, 850, 0, 0)
 for itemGroup in (507, 509):
-    for npcGroup in (562, 579):
-        loot_group_write(itemGroup, 1, npcGroup)
+    for npcGroup in (562, 579, 800, 799):
+        loot_group_write(itemGroup, 1, npcGroup, 0, 0)
 for itemGroup in (510, 511, 771):
-    for npcGroup in (561, 580):
-        loot_group_write(itemGroup, 2, npcGroup)
+    for npcGroup in (561, 580, 798, 797):
+        loot_group_write(itemGroup, 1, npcGroup, 0, 0)
 for itemGroup in (506, 508):
-    loot_group_write(itemGroup, 3, 560)
-loot_group_write(38, 5, 562)
-loot_group_write(40, 4, 560)
+    loot_group_write(itemGroup, 1, 560, 0, 0)
+    loot_group_write(itemGroup, 1, 850, 0, 0)
+loot_group_write(38, 5, 562, 0, 0)
+loot_group_write(38, 5, 800, 0, 0)
+loot_group_write(40, 4, 560, 0, 0)
+loot_group_write(40, 4, 850, 0, 0)
 
 # NPC groups assignment - Asteroid Angel Cartel:
 for itemGroup in (55, 38, 40):
-    for npcGroup in (550, 575):
-        loot_group_write(itemGroup, 1, npcGroup)
-    for npcGroup in (551, 576):
-        loot_group_write(itemGroup, 2, npcGroup)
-    loot_group_write(itemGroup, 3, 552)
+    for npcGroup in (550, 575, 789, 794):
+        loot_group_write(itemGroup, 1, npcGroup, 0, 0)
+    for npcGroup in (551, 576, 790, 793):
+        loot_group_write(itemGroup, 2, npcGroup, 0, 0)
+    loot_group_write(itemGroup, 3, 552, 0, 0)
+    loot_group_write(itemGroup, 3, 848, 0, 0)
 for itemGroup in (507, 509):
-    for npcGroup in (550, 575):
-        loot_group_write(itemGroup, 1, npcGroup)
+    for npcGroup in (550, 575, 789, 794):
+        loot_group_write(itemGroup, 1, npcGroup, 0, 0)
 for itemGroup in (510, 511, 771):
-    for npcGroup in (551, 576):
-        loot_group_write(itemGroup, 2, npcGroup)
+    for npcGroup in (551, 576, 790, 793):
+        loot_group_write(itemGroup, 1, npcGroup, 0, 0)
 for itemGroup in (506, 508):
-    loot_group_write(itemGroup, 3, 552)
-loot_group_write(38, 5, 550)
-loot_group_write(40, 4, 552)
+    loot_group_write(itemGroup, 1, 552, 0, 0)
+    loot_group_write(itemGroup, 1, 848, 0, 0)
+loot_group_write(38, 5, 550, 0, 0)
+loot_group_write(38, 5, 789, 0, 0)
+loot_group_write(40, 4, 552, 0, 0)
+loot_group_write(40, 4, 848, 0, 0)
+
+# NPC groups assignment - Asteroid Angel Cartel Commander:
+for npcGroup in (789, 794):
+    loot_group_write(55, 1, npcGroup, 1, 1)
+for npcGroup in (790, 793):
+    loot_group_write(55, 2, npcGroup, 1, 1)
+loot_group_write(55, 3, 848, 1, 1)
+
+# NPC groups assignment - Asteroid Blood Raiders Commander:
+for npcGroup in (792, 796):
+    loot_group_write(53, 1, npcGroup, 1, 2)
+for npcGroup in (791, 795):
+    loot_group_write(53, 2, npcGroup, 1, 2)
+loot_group_write(53, 3, 849, 1, 2)
+
+# NPC groups assignment - Asteroid Sansha's Nation Commander:
+for npcGroup in (810, 809):
+    loot_group_write(53, 1, npcGroup, 1, 3)
+for npcGroup in (808, 807):
+    loot_group_write(53, 2, npcGroup, 1, 3)
+loot_group_write(53, 3, 851, 1, 3)
+
+# NPC groups assignment - Asteroid Guristas Pirates Commander:
+for npcGroup in (800, 799):
+    loot_group_write(74, 1, npcGroup, 1, 4)
+for npcGroup in (798, 797):
+    loot_group_write(74, 2, npcGroup, 1, 4)
+loot_group_write(74, 3, 850, 1, 4)
+
+# NPC groups assignment - Asteroid Serpentis Corporation Commander:
+for npcGroup in (814, 813):
+    loot_group_write(74, 1, npcGroup, 1, 5)
+for npcGroup in (812, 811):
+    loot_group_write(74, 2, npcGroup, 1, 5)
+loot_group_write(74, 3, 852, 1, 5)
+
 
 # Closing the cursors and MySQL connections
 cur1.close()
@@ -464,3 +621,6 @@ cur2.close()
 conn2.close()
 cur3.close()
 conn3.close()
+# Getting the execution time
+exec_time = time.time() - start_time
+print("--- Script executed in  %s seconds ---" % (round(exec_time, 3)))

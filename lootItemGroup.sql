@@ -1100,3 +1100,216 @@ INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMet
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
 (24, "X-Large Shield Booster", 10888, "X-Large C5-L Emergency Shield Overload I", 4, 0.1, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(35, "Dark Blood Small Energy Weapon", 13795, "Dark Blood Dual Light Beam Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(35, "Dark Blood Small Energy Weapon", 13797, "Dark Blood Dual Light Pulse Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(35, "Dark Blood Small Energy Weapon", 13803, "Dark Blood Gatling Pulse Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(35, "Dark Blood Small Energy Weapon", 13809, "Dark Blood Medium Beam Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(35, "Dark Blood Small Energy Weapon", 13811, "Dark Blood Medium Pulse Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(34, "True Sansha Small Energy Weapon", 13822, "True Sansha Dual Light Beam Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(34, "True Sansha Small Energy Weapon", 13823, "True Sansha Dual Light Pulse Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(34, "True Sansha Small Energy Weapon", 13826, "True Sansha Gatling Pulse Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(34, "True Sansha Small Energy Weapon", 13829, "True Sansha Medium Beam Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(34, "True Sansha Small Energy Weapon", 13830, "True Sansha Medium Pulse Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(40, "Dread Guristas Small Hybrid Weapon", 13865, "Dread Guristas 125mm Railgun", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(40, "Dread Guristas Small Hybrid Weapon", 13867, "Dread Guristas 150mm Railgun", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(40, "Dread Guristas Small Hybrid Weapon", 13893, "Dread Guristas 75mm Railgun", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(41, "Shadow Serpentis Small Hybrid Weapon", 13864, "Shadow Serpentis 125mm Railgun", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(41, "Shadow Serpentis Small Hybrid Weapon", 13866, "Shadow Serpentis 150mm Railgun", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(41, "Shadow Serpentis Small Hybrid Weapon", 13886, "Shadow Serpentis Light Electron Blaster", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(41, "Shadow Serpentis Small Hybrid Weapon", 13887, "Shadow Serpentis Light Ion Blaster", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(41, "Shadow Serpentis Small Hybrid Weapon", 13888, "Shadow Serpentis Light Neutron Blaster", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(41, "Shadow Serpentis Small Hybrid Weapon", 13894, "Shadow Serpentis 75mm Railgun", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(46, "Domination Small Projectile Weapon", 13773, "Domination 125mm Autocannon", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(46, "Domination Small Projectile Weapon", 13776, "Domination 150mm Autocannon", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(46, "Domination Small Projectile Weapon", 13777, "Domination 200mm Autocannon", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(46, "Domination Small Projectile Weapon", 13779, "Domination 250mm Artillery", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(46, "Domination Small Projectile Weapon", 13781, "Domination 280mm Howitzer Artillery", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(37, "Dark Blood Medium Energy Weapon", 13799, "Dark Blood Focused Medium Beam Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(37, "Dark Blood Medium Energy Weapon", 13801, "Dark Blood Focused Medium Pulse Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(37, "Dark Blood Medium Energy Weapon", 13805, "Dark Blood Heavy Beam Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(37, "Dark Blood Medium Energy Weapon", 13807, "Dark Blood Heavy Pulse Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(37, "Dark Blood Medium Energy Weapon", 13819, "Dark Blood Quad Beam Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(36, "True Sansha Medium Energy Weapon", 13824, "True Sansha Focused Medium Beam Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(36, "True Sansha Medium Energy Weapon", 13825, "True Sansha Focused Medium Pulse Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(36, "True Sansha Medium Energy Weapon", 13827, "True Sansha Heavy Beam Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(36, "True Sansha Medium Energy Weapon", 13828, "True Sansha Heavy Pulse Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(36, "True Sansha Medium Energy Weapon", 13833, "True Sansha Quad Beam Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(42, "Dread Guristas Medium Hybrid Weapon", 13870, "Dread Guristas 200mm Railgun", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(42, "Dread Guristas Medium Hybrid Weapon", 13873, "Dread Guristas 250mm Railgun", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(42, "Dread Guristas Medium Hybrid Weapon", 13881, "Dread Guristas Dual 150mm Railgun", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(43, "Shadow Serpentis Medium Hybrid Weapon", 13868, "Shadow Serpentis 200mm Railgun", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(43, "Shadow Serpentis Medium Hybrid Weapon", 13872, "Shadow Serpentis 250mm Railgun", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(43, "Shadow Serpentis Medium Hybrid Weapon", 13880, "Shadow Serpentis Dual 150mm Railgun", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(43, "Shadow Serpentis Medium Hybrid Weapon", 13884, "Shadow Serpentis Heavy Electron Blaster", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(43, "Shadow Serpentis Medium Hybrid Weapon", 13885, "Shadow Serpentis Heavy Ion Blaster", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(43, "Shadow Serpentis Medium Hybrid Weapon", 13892, "Shadow Serpentis Heavy Neutron Blaster", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(47, "Domination Medium Projectile Weapon", 13778, "Domination 220mm Autocannon", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(47, "Domination Medium Projectile Weapon", 13782, "Domination 425mm Autocannon", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(47, "Domination Medium Projectile Weapon", 13783, "Domination 650mm Artillery", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(47, "Domination Medium Projectile Weapon", 13784, "Domination 720mm Howitzer Artillery", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(47, "Domination Medium Projectile Weapon", 13786, "Domination Dual 180mm Autocannon", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(39, "Dark Blood Large Energy Weapon", 13791, "Dark Blood Dual Heavy Pulse Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(39, "Dark Blood Large Energy Weapon", 13793, "Dark Blood Dual Heavy Beam Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(39, "Dark Blood Large Energy Weapon", 13813, "Dark Blood Mega Beam Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(39, "Dark Blood Large Energy Weapon", 13815, "Dark Blood Mega Pulse Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(39, "Dark Blood Large Energy Weapon", 13817, "Dark Blood Tachyon Beam Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(38, "True Sansha Large Energy Weapon", 13820, "True Sansha Dual Heavy Beam Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(38, "True Sansha Large Energy Weapon", 13821, "True Sansha Dual Heavy Pulse Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(38, "True Sansha Large Energy Weapon", 13831, "True Sansha Mega Beam Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(38, "True Sansha Large Energy Weapon", 13832, "True Sansha Mega Pulse Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(38, "True Sansha Large Energy Weapon", 13834, "True Sansha Tachyon Beam Laser", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(44, "Dread Guristas Large Hybrid Weapon", 13876, "Dread Guristas 350mm Railgun", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(44, "Dread Guristas Large Hybrid Weapon", 13879, "Dread Guristas 425mm Railgun", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(44, "Dread Guristas Large Hybrid Weapon", 13883, "Dread Guristas Dual 250mm Railgun", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(45, "Shadow Serpentis Large Hybrid Weapon", 13874, "Shadow Serpentis 350mm Railgun", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(45, "Shadow Serpentis Large Hybrid Weapon", 13878, "Shadow Serpentis 425mm Railgun", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(45, "Shadow Serpentis Large Hybrid Weapon", 13882, "Shadow Serpentis Dual 250mm Railgun", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(45, "Shadow Serpentis Large Hybrid Weapon", 13889, "Shadow Serpentis Electron Blaster Cannon", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(45, "Shadow Serpentis Large Hybrid Weapon", 13890, "Shadow Serpentis Ion Blaster Cannon", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(45, "Shadow Serpentis Large Hybrid Weapon", 13891, "Shadow Serpentis Neutron Blaster Cannon", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(48, "Domination Large Projectile Weapon", 13775, "Domination 1400mm Howitzer Artillery", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(48, "Domination Large Projectile Weapon", 13785, "Domination 800mm Repeating Artillery", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(48, "Domination Large Projectile Weapon", 13787, "Domination Dual 425mm Autocannon", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(48, "Domination Large Projectile Weapon", 13788, "Domination Dual 650mm Repeating Artillery", 7, 0.15, 1, 1);
