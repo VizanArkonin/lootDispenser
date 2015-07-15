@@ -14,3 +14,4 @@ Or, alternatively, you can use the local copy of the module from this repo.
 - Run the dispenser.py
 
 For now the script makes a bulk dump of a few module groups (Energy/Projectile/Hybrid turrets, all sub-cap missile launchers, shield boosters/extenders, hull/armor repairers and armor plates. Meta-0 to Meta-4) and binds them to all Asteroid Pirate NPC groups (Sansha, Blood Raiders, Guristas, Serpentis, Angel Cartel).
+Additionally, it now processes the Asteroid Commander NPC groups, giving them both regular meta0-4 modules and faction turrets as loot.
