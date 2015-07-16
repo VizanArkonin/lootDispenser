@@ -1174,6 +1174,18 @@ INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMet
 (46, "Domination Small Projectile Weapon", 13781, "Domination 280mm Howitzer Artillery", 7, 0.15, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
   VALUES 
+(57, "Domination Small Armor Repairer", 13962, "Domination Small Armor Repairer", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(66, "Dark Blood Small Armor Repairer", 13964, "Dark Blood Small Armor Repairer", 9, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(63, "True Sansha Small Armor Repairer", 13963, "True Sansha Small Armor Repairer", 9, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(60, "Shadow Serpentis Small Armor Repairer", 14069, "Shadow Serpentis Small Armor Repairer", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
 (37, "Dark Blood Medium Energy Weapon", 13799, "Dark Blood Focused Medium Beam Laser", 8, 0.15, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
   VALUES 
@@ -1246,6 +1258,18 @@ INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMet
 (47, "Domination Medium Projectile Weapon", 13786, "Domination Dual 180mm Autocannon", 7, 0.15, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
   VALUES 
+(58, "Domination Medium Armor Repairer", 13958, "Domination Medium Armor Repairer", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(67, "Dark Blood Medium Armor Repairer", 13960, "Dark Blood Medium Armor Repairer", 9, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(64, "True Sansha Medium Armor Repairer", 13959, "True Sansha Medium Armor Repairer", 9, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(61, "Shadow Serpentis Medium Armor Repairer", 14068, "Shadow Serpentis Medium Armor Repairer", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
 (39, "Dark Blood Large Energy Weapon", 13791, "Dark Blood Dual Heavy Pulse Laser", 8, 0.15, 1, 1);
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
   VALUES 
@@ -1313,3 +1337,93 @@ INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMet
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
   VALUES 
 (48, "Domination Large Projectile Weapon", 13788, "Domination Dual 650mm Repeating Artillery", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(59, "Domination Large Armor Repairer", 13955, "Domination Large Armor Repairer", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(68, "Dark Blood Large Armor Repairer", 13957, "Dark Blood Large Armor Repairer", 9, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(65, "True Sansha Large Armor Repairer", 13956, "True Sansha Large Armor Repairer", 9, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(62, "Shadow Serpentis Large Armor Repairer", 14067, "Shadow Serpentis Large Armor Repairer", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(49, "Domination Small Shield Booster", 13952, "Domination Small Shield Booster", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(53, "Dread Guristas Small Shield Booster", 13951, "Dread Guristas Small Shield Booster", 9, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(50, "Domination Medium Shield Booster", 13950, "Domination Medium Shield Booster", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(54, "Dread Guristas Medium Shield Booster", 13949, "Dread Guristas Medium Shield Booster", 9, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(51, "Domination Large Shield Booster", 13948, "Domination Large Shield Booster", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(55, "Dread Guristas Large Shield Booster", 13947, "Dread Guristas Large Shield Booster", 9, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(52, "Domination X-Large Shield Booster", 13954, "Domination X-Large Shield Booster", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(56, "Dread Guristas X-Large Shield Booster", 13953, "Dread Guristas X-Large Shield Booster", 9, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(69, "Domination Rocket Launcher", 13931, "Domination Rocket Launcher", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(72, "Domination Light Missile Launcher", 13925, "Domination Standard Missile Launcher", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(78, "Domination Heavy Missile Launcher", 13921, "Domination Heavy Missile Launcher", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(75, "Domination Rapid Light Missile Launcher", 13919, "Domination Assault Missile Launcher", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(81, "Domination Cruise Missile Launcher", 13927, "Domination Cruise Missile Launcher", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(84, "Domination Torpedo Launcher", 13923, "Domination Siege Missile Launcher", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(70, "True Sansha Rocket Launcher", 22564, "True Sansha Rocket Launcher", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(73, "True Sansha Light Missile Launcher", 22565, "True Sansha Standard Missile Launcher", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(79, "True Sansha Heavy Missile Launcher", 22567, "True Sansha Heavy Missile Launcher", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(76, "True Sansha Rapid Light Missile Launcher", 22566, "True Sansha Assault Missile Launcher", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(82, "True Sansha Cruise Missile Launcher", 22568, "True Sansha Cruise Missile Launcher", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(85, "True Sansha Torpedo Launcher", 22569, "True Sansha Siege Missile Launcher", 7, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(71, "Dread Guristas Rocket Launcher", 13933, "Dread Guristas Rocket Launcher", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(74, "Dread Guristas Light Missile Launcher", 13926, "Dread Guristas Standard Missile Launcher", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(80, "Dread Guristas Heavy Missile Launcher", 13922, "Dread Guristas Heavy Missile Launcher", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(77, "Dread Guristas Rapid Light Missile Launcher", 13920, "Dread Guristas Assault Missile Launcher", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(83, "Dread Guristas Cruise Missile Launcher", 13929, "Dread Guristas Cruise Missile Launcher", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(86, "Dread Guristas Torpedo Launcher", 13924, "Dread Guristas Siege Missile Launcher", 8, 0.15, 1, 1);

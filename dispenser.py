@@ -26,6 +26,7 @@
 # Import section:
 import pymysql as sql
 import time
+# import sys
 
 
 # =================================================================================================================== #
@@ -51,6 +52,10 @@ cur2 = conn2.cursor()    # Duplicated connection for npcInvGroups processing
 conn3 = sql.connect(host=sqlHost, port=sqlPort, user=sqlUser,
                     passwd=sqlPwd, db=sqlDb)
 cur3 = conn3.cursor()    # Another duplicate for itemGroups processing
+
+# Starting the logger:
+# Currently commenting it. It'll have a use later.
+# sys.stdout = open(workDir + 'console_log.log', 'w')
 
 # =================================================================================================================== #
 #                                              Libraries and Dictionaries                                             #
@@ -157,21 +162,59 @@ invGroup - all items within are of the same size.
 P.P.S - Now the dict is not filled with all faction stuff available.
 '''
 
-factionModuleLibrary = {(53, 1, 3): 34,     # True Sansha Small Energy Weapon
-                        (53, 2, 3): 36,     # True Sansha Medium Energy Weapon
-                        (53, 3, 3): 38,     # True Sansha Medium Energy Weapon
-                        (53, 1, 2): 35,     # Dark Blood Small Energy Weapon
-                        (53, 2, 2): 37,     # Dark Blood Medium Energy Weapon
-                        (53, 3, 2): 39,     # Dark Blood Large Energy Weapon
-                        (74, 1, 4): 40,     # Dread Guristas Small Hybrid Weapon
-                        (74, 2, 4): 42,     # Dread Guristas Medium Hybrid Weapon
-                        (74, 3, 4): 44,     # Dread Guristas Large Hybrid Weapon
-                        (74, 1, 5): 41,     # Shadow Serpentis Small Hybrid Weapon
-                        (74, 2, 5): 43,     # Shadow Serpentis Medium Hybrid Weapon
-                        (74, 3, 5): 45,     # Shadow Serpentis Large Hybrid Weapon
-                        (55, 1, 1): 46,     # Domination Small Projectile Weapon
-                        (55, 2, 1): 47,     # Domination Medium Projectile Weapon
-                        (55, 3, 1): 48,     # Domination Large Projectile Weapon
+factionModuleLibrary = {(53, 1, 3): 34,      # True Sansha Small Energy Weapon
+                        (53, 2, 3): 36,      # True Sansha Medium Energy Weapon
+                        (53, 3, 3): 38,      # True Sansha Medium Energy Weapon
+                        (53, 1, 2): 35,      # Dark Blood Small Energy Weapon
+                        (53, 2, 2): 37,      # Dark Blood Medium Energy Weapon
+                        (53, 3, 2): 39,      # Dark Blood Large Energy Weapon
+                        (74, 1, 4): 40,      # Dread Guristas Small Hybrid Weapon
+                        (74, 2, 4): 42,      # Dread Guristas Medium Hybrid Weapon
+                        (74, 3, 4): 44,      # Dread Guristas Large Hybrid Weapon
+                        (74, 1, 5): 41,      # Shadow Serpentis Small Hybrid Weapon
+                        (74, 2, 5): 43,      # Shadow Serpentis Medium Hybrid Weapon
+                        (74, 3, 5): 45,      # Shadow Serpentis Large Hybrid Weapon
+                        (55, 1, 1): 46,      # Domination Small Projectile Weapon
+                        (55, 2, 1): 47,      # Domination Medium Projectile Weapon
+                        (55, 3, 1): 48,      # Domination Large Projectile Weapon
+                        (40, 1, 1): 49,      # Domination Small Shield Booster
+                        (40, 2, 1): 50,      # Domination Medium Shield Booster
+                        (40, 3, 1): 51,      # Domination Large Shield Booster
+                        (40, 4, 1): 52,      # Domination X-Large Shield Booster
+                        (40, 1, 4): 53,      # Dread Guristas Small Shield Booster
+                        (40, 2, 4): 54,      # Dread Guristas Medium Shield Booster
+                        (40, 3, 4): 55,      # Dread Guristas Large Shield Booster
+                        (40, 4, 4): 56,      # Dread Guristas X-Large Shield Booster
+                        (62, 1, 1): 57,      # Domination Small Armor Repairer
+                        (62, 2, 1): 58,      # Domination Medium Armor Repairer
+                        (62, 3, 1): 59,      # Domination Large Armor Repairer
+                        (62, 1, 5): 60,      # Shadow Serpentis Small Armor Repairer
+                        (62, 2, 5): 61,      # Shadow Serpentis Medium Armor Repairer
+                        (62, 3, 5): 62,      # Shadow Serpentis Large Armor Repairer
+                        (62, 1, 3): 63,      # True Sansha Small Armor Repairer
+                        (62, 2, 3): 64,      # True Sansha Medium Armor Repairer
+                        (62, 3, 3): 65,      # True Sansha Large Armor Repairer
+                        (62, 1, 2): 66,      # Dark Blood Small Armor Repairer
+                        (62, 2, 2): 67,      # Dark Blood Small Armor Repairer
+                        (62, 3, 2): 68,      # Dark Blood Small Armor Repairer
+                        (507, 1, 1): 69,     # Domination Rocket Launcher
+                        (507, 1, 3): 70,     # True Sansha Rocket Launcher
+                        (507, 1, 4): 71,     # Dread Guristas Rocket Launcher
+                        (509, 1, 1): 72,     # Domination Light Missile Launcher
+                        (509, 1, 3): 73,     # True Sansha Light Missile Launcher
+                        (509, 1, 4): 74,     # Dread Guristas Light Missile Launcher
+                        (511, 1, 1): 75,     # Domination Rapid Light Missile Launcher
+                        (511, 1, 3): 76,     # True Sansha Rapid Light Missile Launcher
+                        (511, 1, 4): 77,     # Dread Guristas Rapid Light Missile Launcher
+                        (510, 1, 1): 78,     # Domination Heavy Missile Launcher
+                        (510, 1, 3): 79,     # True Sansha Heavy Missile Launcher
+                        (510, 1, 4): 80,     # Dread Guristas Heavy Missile Launcher
+                        (506, 1, 1): 81,     # Domination Cruise Missile Launcher
+                        (506, 1, 3): 82,     # True Sansha Cruise Missile Launcher
+                        (506, 1, 4): 83,     # Dread Guristas Cruise Missile Launcher
+                        (508, 1, 1): 84,     # Domination Torpedo Launcher
+                        (508, 1, 3): 85,     # True Sansha Torpedo Launcher
+                        (508, 1, 4): 86,     # Dread Guristas Torpedo Launcher
                         }
 
 
@@ -359,7 +402,7 @@ def loot_group_write(group_id, size, npc_group_id, mode, faction):
     # the tabulations which makes resulting query look ugly
     first_file_append = open(loot_group_file, 'a')
     first_file_append.writelines("INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, \
-itemGroupID, itemGroupName) \n \
+itemGroupID, itemGroupName) \n\
 VALUES \n")
     first_file_append.write("(" + str(npc_group_id) + ", " + '"' + npc_group_name + '"' + ", " + "0.5" + ", "
                                 + str(module_group) + ", " + '"' + module_group_name + '"' + ");")
@@ -412,17 +455,19 @@ def loot_item_group_write(group_id, meta_level, size, mode, faction):
         drop_chance = 0.15   # Faction stuff = 15%
     elif meta_level == 8:
         drop_chance = 0.15   # Faction projectiles = 15%
+    elif meta_level == 9:
+        drop_chance = 0.15   # Faction SB's and Missile launchers
 
     # Queries execution:
     cur1.executemany("SELECT it.groupID, ig.groupName, it.typeID, \
-                   it.typeName  \
-                   FROM dgmTypeAttributes dgm \
-                   JOIN invTypes it ON it.typeID = dgm.typeID \
-                   JOIN invGroups ig ON ig.groupID = it.groupID \
-                   WHERE dgm.attributeID = 633 \
-                   AND dgm.valueint = %s \
-                   AND ig.groupID = %s \
-                   AND it.volume = %s", [(meta_level, group_id, module_size)])
+                      it.typeName  \
+                      FROM dgmTypeAttributes dgm \
+                      JOIN invTypes it ON it.typeID = dgm.typeID \
+                      JOIN invGroups ig ON ig.groupID = it.groupID \
+                      WHERE dgm.attributeID = 633 \
+                      AND dgm.valueint = %s \
+                      AND ig.groupID = %s \
+                      AND it.volume = %s", [(meta_level, group_id, module_size)])
     cur3.executemany("SELECT lootGroupID, lootGroupName FROM lootItemGroupNames WHERE lootGroupID = %s", [module_group])
 
     # Main processing branch:
@@ -465,8 +510,7 @@ itemDropChance, minAmount, maxAmount) \n \
     # Closing the file
     second_file_append.close()
     # Printing the results - which group/module/metaLevel was processed
-    print(module_group_name, "adding with meta level ", meta_level,
-          " is finished!")
+    print(module_group_name, "adding with meta level ", meta_level, " is finished!")
     # Function End
 
 # =================================================================================================================== #
@@ -514,8 +558,23 @@ for size in (1, 2, 3):
     for faction in (4, 5):
         loot_item_group_write(74, 8, size, 1, faction)
     loot_item_group_write(55, 7, size, 1, 1)
+    loot_item_group_write(62, 7, size, 1, 1)
+    loot_item_group_write(62, 9, size, 1, 2)
+    loot_item_group_write(62, 9, size, 1, 3)
+    loot_item_group_write(62, 8, size, 1, 5)
+    for faction in (2, 3):
+        loot_item_group_write(62, 7, size, 1, faction)
+for size in (1, 2, 3, 4):
+    loot_item_group_write(40, 8, size, 1, 1)
+    loot_item_group_write(40, 9, size, 1, 4)
+for faction in (1, 3):
+    for itemGroup in (507, 509, 510, 511, 506, 508):
+        loot_item_group_write(itemGroup, 7, 1, 1, faction)
+for itemGroup in (507, 509, 510, 511, 506, 508):
+    loot_item_group_write(itemGroup, 8, 1, 1, 4)
 
-# NPC groups assignment - Asteroid BR and Sansha:
+
+# NPC groups assignment - Asteroid BR and Sansha (including commanders):
 for itemGroup in (53, 62, 63, 329):
     for npcGroup in (557, 577, 567, 581, 792, 796, 810, 809):
         loot_group_write(itemGroup, 1, npcGroup, 0, 0)
@@ -524,7 +583,7 @@ for itemGroup in (53, 62, 63, 329):
     for npcGroup in (556, 565, 849, 851):
         loot_group_write(itemGroup, 3, npcGroup, 0, 0)
 
-# NPC groups assignment - Asteroid Serpentis:
+# NPC groups assignment - Asteroid Serpentis (including commanders):
 for itemGroup in (74, 62, 63, 329):
     for npcGroup in (572, 583, 814, 813):
         loot_group_write(itemGroup, 1, npcGroup, 0, 0)
@@ -533,7 +592,7 @@ for itemGroup in (74, 62, 63, 329):
     loot_group_write(itemGroup, 3, 570, 0, 0)
     loot_group_write(itemGroup, 3, 852, 0, 0)
 
-# NPC groups assignment - Asteroid Guristas:
+# NPC groups assignment - Asteroid Guristas (including commanders):
 for itemGroup in (74, 38, 40):
     for npcGroup in (562, 579, 800, 799):
         loot_group_write(itemGroup, 1, npcGroup, 0, 0)
@@ -555,7 +614,7 @@ loot_group_write(38, 5, 800, 0, 0)
 loot_group_write(40, 4, 560, 0, 0)
 loot_group_write(40, 4, 850, 0, 0)
 
-# NPC groups assignment - Asteroid Angel Cartel:
+# NPC groups assignment - Asteroid Angel Cartel (including commanders):
 for itemGroup in (55, 38, 40):
     for npcGroup in (550, 575, 789, 794):
         loot_group_write(itemGroup, 1, npcGroup, 0, 0)
@@ -579,38 +638,80 @@ loot_group_write(40, 4, 848, 0, 0)
 
 # NPC groups assignment - Asteroid Angel Cartel Commander:
 for npcGroup in (789, 794):
-    loot_group_write(55, 1, npcGroup, 1, 1)
+    for itemGroup in (55, 62, 40):
+        loot_group_write(itemGroup, 1, npcGroup, 1, 1)
 for npcGroup in (790, 793):
-    loot_group_write(55, 2, npcGroup, 1, 1)
+    for itemGroup in (55, 62, 40):
+        loot_group_write(itemGroup, 2, npcGroup, 1, 1)
 loot_group_write(55, 3, 848, 1, 1)
+loot_group_write(62, 3, 848, 1, 1)
+for size in (3, 4):
+    loot_group_write(40, size, 848, 1, 1)
+for itemGroup in (507, 509):
+    for npcGroup in (789, 794):
+        loot_group_write(itemGroup, 1, npcGroup, 1, 1)
+for itemGroup in (510, 511):
+    for npcGroup in (790, 793):
+        loot_group_write(itemGroup, 1, npcGroup, 1, 1)
+for itemGroup in (506, 508):
+    loot_group_write(itemGroup, 1, 848, 1, 1)
 
 # NPC groups assignment - Asteroid Blood Raiders Commander:
 for npcGroup in (792, 796):
     loot_group_write(53, 1, npcGroup, 1, 2)
+    loot_group_write(62, 1, npcGroup, 1, 2)
 for npcGroup in (791, 795):
     loot_group_write(53, 2, npcGroup, 1, 2)
+    loot_group_write(62, 2, npcGroup, 1, 2)
 loot_group_write(53, 3, 849, 1, 2)
+loot_group_write(62, 3, 849, 1, 2)
 
 # NPC groups assignment - Asteroid Sansha's Nation Commander:
 for npcGroup in (810, 809):
     loot_group_write(53, 1, npcGroup, 1, 3)
+    loot_group_write(62, 1, npcGroup, 1, 3)
 for npcGroup in (808, 807):
     loot_group_write(53, 2, npcGroup, 1, 3)
+    loot_group_write(62, 2, npcGroup, 1, 3)
 loot_group_write(53, 3, 851, 1, 3)
+loot_group_write(62, 3, 851, 1, 3)
+for itemGroup in (507, 509):
+    for npcGroup in (810, 809):
+        loot_group_write(itemGroup, 1, npcGroup, 1, 3)
+for itemGroup in (510, 511):
+    for npcGroup in (808, 807):
+        loot_group_write(itemGroup, 1, npcGroup, 1, 3)
+for itemGroup in (506, 508):
+    loot_group_write(itemGroup, 1, 851, 1, 3)
 
 # NPC groups assignment - Asteroid Guristas Pirates Commander:
 for npcGroup in (800, 799):
     loot_group_write(74, 1, npcGroup, 1, 4)
+    loot_group_write(40, 1, npcGroup, 1, 4)
 for npcGroup in (798, 797):
     loot_group_write(74, 2, npcGroup, 1, 4)
+    loot_group_write(40, 2, npcGroup, 1, 4)
 loot_group_write(74, 3, 850, 1, 4)
+for size in (3, 4):
+    loot_group_write(40, size, 850, 1, 4)
+for itemGroup in (507, 509):
+    for npcGroup in (800, 799):
+        loot_group_write(itemGroup, 1, npcGroup, 1, 4)
+for itemGroup in (510, 511):
+    for npcGroup in (798, 797):
+        loot_group_write(itemGroup, 1, npcGroup, 1, 4)
+for itemGroup in (506, 508):
+    loot_group_write(itemGroup, 1, 850, 1, 4)
 
 # NPC groups assignment - Asteroid Serpentis Corporation Commander:
 for npcGroup in (814, 813):
     loot_group_write(74, 1, npcGroup, 1, 5)
+    loot_group_write(62, 1, npcGroup, 1, 5)
 for npcGroup in (812, 811):
     loot_group_write(74, 2, npcGroup, 1, 5)
+    loot_group_write(62, 2, npcGroup, 1, 5)
 loot_group_write(74, 3, 852, 1, 5)
+loot_group_write(62, 3, 852, 1, 5)
 
 
 # Closing the cursors and MySQL connections
