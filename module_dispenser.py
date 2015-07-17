@@ -236,37 +236,6 @@ factionNamesFilter = {0: 'Regular',
 
 # =================================================================================================================== #
 
-'''        NPC invGroup values/sizes list           '''
-# npcInvGroupSizes dictionary - evaluates invGroup of NPC to respective
-# modules size. Note that this dict stores the invGroups of regular rats,
-# not including officers, deadspace overseers, convoys and commanders.
-asteroidNpcInvGroupSizes = {550: [1, 5],    # Asteroid Angel Cartel Frigate
-                            551: 2,         # Asteroid Angel Cartel Cruiser
-                            552: [3, 4],    # Asteroid Angel Cartel Battleship
-                            555: 2,         # Asteroid Blood Raiders Cruiser
-                            556: 3,         # Asteroid Blood Raiders Battleship
-                            557: 1,         # Asteroid Blood Raiders Frigate
-                            560: [3, 4],    # Asteroid Guristas Battleship
-                            561: 2,         # Asteroid Guristas Cruiser
-                            562: [1, 5],    # Asteroid Guristas Frigate
-                            565: 3,         # Asteroid Sansha's Nation Battleship
-                            566: 2,         # Asteroid Sansha's Nation Cruiser
-                            567: 1,         # Asteroid Sansha's Nation Frigate
-                            570: 3,         # Asteroid Serpentis Battleship
-                            571: 2,         # Asteroid Serpentis Cruiser
-                            572: 1,         # Asteroid Serpentis Frigate
-                            575: 1,         # Asteroid Angel Cartel Destroyer
-                            576: 2,         # Asteroid Angel Cartel BattleCruiser
-                            577: 1,         # Asteroid Blood Raiders Destroyer
-                            578: 2,         # Asteroid Blood Raiders BC
-                            579: 1,         # Asteroid Guristas Destroyer
-                            580: 2,         # Asteroid Guristas BattleCruiser
-                            581: 1,         # Asteroid Sansha's Nation Destroyer
-                            582: 2,         # Asteroid Sansha's Nation BC
-                            583: 1,         # Asteroid Serpentis Destroyer
-                            584: 2,         # Asteroid Serpentis BattleCruiser
-                            }
-
 '''
 Item filter function - assigns the specified item group_ID and size to a
 respective items in loot system
