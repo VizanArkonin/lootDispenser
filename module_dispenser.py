@@ -26,7 +26,7 @@
 # Import section:
 import pymysql as sql
 import time
-# import sys
+import sys
 
 
 # =================================================================================================================== #
@@ -52,11 +52,6 @@ cur2 = conn2.cursor()    # Duplicated connection for npcInvGroups processing
 conn3 = sql.connect(host=sqlHost, port=sqlPort, user=sqlUser,
                     passwd=sqlPwd, db=sqlDb)
 cur3 = conn3.cursor()    # Another duplicate for itemGroups processing
-
-# Starting the logger:
-# Currently commenting it. It'll have a use later.
-# sys.stdout = open(workDir + 'console_log.log', 'w')
-
 # =================================================================================================================== #
 #                                              Libraries and Dictionaries                                             #
 # =================================================================================================================== #
@@ -504,8 +499,39 @@ Author: Zuko
 Edit: AlTahir (aka DaVinci)
 '''
 
-# Creating the template files.
-file_сreate()
+
+blank_file_creation = input("Create a new output files? y/n - ")
+template_file_creation = input('Should we use a "CREATE" SQL template? y/n - ')
+logging_enable = input("Log the console output into the file? y/n")
+
+
+def main_loop():
+    option_1 = blank_file_creation.lower()
+    option_2 = template_file_creation.lower()
+    option_3 = logging_enable.lower()
+    if option_1 == "y":
+        if option_2 == "y":
+            file_сreate()
+        elif option_2 == "n":
+            loot_group_file = workDir + 'lootGroup.sql'
+            loot_item_group_file = workDir + 'lootItemGroup.sql'
+            open(loot_group_file, 'w')
+            open(loot_item_group_file, 'w')
+        else:
+            print("You must select either 'y' or 'n' ")
+    elif option_1 == "n":
+        print("Resulting queries will be written in existing files")
+    else:
+        print("You must select either 'y' or 'n' ")
+
+    if option_3 == "y":
+        sys.stdout = open(workDir + 'console_log.log', 'w')
+    elif option_3 == "n":
+        print("Logging is off. Debug messages will be shown in console, instead")
+    else:
+        print("You must select either 'y' or 'n' ")
+
+main_loop()
 
 # Bulk dump of all module groups.
 for moduleGroup in (53, 55, 74, 38, 40, 62, 63, 329):
