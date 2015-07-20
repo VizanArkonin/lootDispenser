@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
  ------------------------------------------------------------------------------------
     LICENSE:
@@ -143,7 +142,7 @@ standardModuleLibrary = {(53, 1): 1,        # Small Energy Weapons
                          }
 
 '''
-Faction modules library - The double-key dictionary that binds certain
+Faction modules library - The triple-key dictionary that binds certain
 invGroup and size to a correct lootItemGroup.
 The keys are next:
 1 - Item invGroup
@@ -502,7 +501,7 @@ Edit: AlTahir (aka DaVinci)
 
 blank_file_creation = input("Create a new output files? y/n - ")
 template_file_creation = input('Should we use a "CREATE" SQL template? y/n - ')
-logging_enable = input("Log the console output into the file? y/n")
+logging_enable = input("Log the console output into the file? y/n - ")
 
 
 def main_loop():

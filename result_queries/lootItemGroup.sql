@@ -1427,3 +1427,1185 @@ INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMet
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel,itemDropChance, minAmount, maxAmount) 
   VALUES 
 (86, "Dread Guristas Torpedo Launcher", 13924, "Dread Guristas Siege Missile Launcher", 8, 0.15, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(87, "Small Projectile Ammo", 178, "Carbonized Lead S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(87, "Small Projectile Ammo", 179, "Nuclear S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(87, "Small Projectile Ammo", 180, "Proton S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(87, "Small Projectile Ammo", 181, "Depleted Uranium S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(87, "Small Projectile Ammo", 182, "Titanium Sabot S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(87, "Small Projectile Ammo", 183, "Fusion S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(87, "Small Projectile Ammo", 184, "Phased Plasma S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(87, "Small Projectile Ammo", 185, "EMP S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(88, "Medium Projectile Ammo", 186, "Carbonized Lead M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(88, "Medium Projectile Ammo", 187, "Nuclear M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(88, "Medium Projectile Ammo", 188, "Proton M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(88, "Medium Projectile Ammo", 189, "Depleted Uranium M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(88, "Medium Projectile Ammo", 190, "Titanium Sabot M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(88, "Medium Projectile Ammo", 191, "Fusion M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(88, "Medium Projectile Ammo", 192, "Phased Plasma M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(88, "Medium Projectile Ammo", 193, "EMP M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(89, "Large Projectile Ammo", 194, "Carbonized Lead L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(89, "Large Projectile Ammo", 195, "Nuclear L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(89, "Large Projectile Ammo", 196, "Proton L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(89, "Large Projectile Ammo", 197, "Depleted Uranium L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(89, "Large Projectile Ammo", 198, "Titanium Sabot L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(89, "Large Projectile Ammo", 199, "Fusion L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(89, "Large Projectile Ammo", 200, "Phased Plasma L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(89, "Large Projectile Ammo", 201, "EMP L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(90, "Small Hybrid Ammo", 215, "Iron Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(90, "Small Hybrid Ammo", 216, "Tungsten Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(90, "Small Hybrid Ammo", 217, "Iridium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(90, "Small Hybrid Ammo", 218, "Lead Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(90, "Small Hybrid Ammo", 219, "Thorium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(90, "Small Hybrid Ammo", 220, "Uranium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(90, "Small Hybrid Ammo", 221, "Plutonium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(90, "Small Hybrid Ammo", 222, "Antimatter Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(91, "Medium Hybrid Ammo", 223, "Iron Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(91, "Medium Hybrid Ammo", 224, "Tungsten Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(91, "Medium Hybrid Ammo", 225, "Iridium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(91, "Medium Hybrid Ammo", 226, "Lead Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(91, "Medium Hybrid Ammo", 227, "Thorium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(91, "Medium Hybrid Ammo", 228, "Uranium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(91, "Medium Hybrid Ammo", 229, "Plutonium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(91, "Medium Hybrid Ammo", 230, "Antimatter Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(92, "Large Hybrid Ammo", 231, "Iron Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(92, "Large Hybrid Ammo", 232, "Tungsten Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(92, "Large Hybrid Ammo", 233, "Iridium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(92, "Large Hybrid Ammo", 234, "Lead Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(92, "Large Hybrid Ammo", 235, "Thorium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(92, "Large Hybrid Ammo", 236, "Uranium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(92, "Large Hybrid Ammo", 237, "Plutonium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(92, "Large Hybrid Ammo", 238, "Antimatter Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(93, "Small Frequency Crystal", 239, "Radio S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(93, "Small Frequency Crystal", 240, "Microwave S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(93, "Small Frequency Crystal", 241, "Infrared S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(93, "Small Frequency Crystal", 242, "Standard S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(93, "Small Frequency Crystal", 243, "Ultraviolet S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(93, "Small Frequency Crystal", 244, "Xray S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(93, "Small Frequency Crystal", 245, "Gamma S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(93, "Small Frequency Crystal", 246, "Multifrequency S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(94, "Medium Frequency Crystal", 247, "Radio M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(94, "Medium Frequency Crystal", 248, "Microwave M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(94, "Medium Frequency Crystal", 249, "Infrared M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(94, "Medium Frequency Crystal", 250, "Standard M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(94, "Medium Frequency Crystal", 251, "Ultraviolet M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(94, "Medium Frequency Crystal", 252, "Xray M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(94, "Medium Frequency Crystal", 253, "Gamma M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(94, "Medium Frequency Crystal", 254, "Multifrequency M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(95, "Large Frequency Crystal", 255, "Radio L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(95, "Large Frequency Crystal", 256, "Microwave L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(95, "Large Frequency Crystal", 257, "Infrared L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(95, "Large Frequency Crystal", 258, "Standard L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(95, "Large Frequency Crystal", 259, "Ultraviolet L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(95, "Large Frequency Crystal", 260, "Xray L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(95, "Large Frequency Crystal", 261, "Gamma L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(95, "Large Frequency Crystal", 262, "Multifrequency L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(108, "Guristas Small Hybrid Ammo", 21320, "Guristas Iron Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(108, "Guristas Small Hybrid Ammo", 21322, "Guristas Tungsten Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(108, "Guristas Small Hybrid Ammo", 21324, "Guristas Iridium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(108, "Guristas Small Hybrid Ammo", 21326, "Guristas Lead Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(108, "Guristas Small Hybrid Ammo", 21328, "Guristas Thorium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(108, "Guristas Small Hybrid Ammo", 21330, "Guristas Uranium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(108, "Guristas Small Hybrid Ammo", 21332, "Guristas Plutonium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(108, "Guristas Small Hybrid Ammo", 21334, "Guristas Antimatter Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(108, "Guristas Small Hybrid Ammo", 21384, "Dread Guristas Iron Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(108, "Guristas Small Hybrid Ammo", 21386, "Dread Guristas Tungsten Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(108, "Guristas Small Hybrid Ammo", 21388, "Dread Guristas Iridium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(108, "Guristas Small Hybrid Ammo", 21390, "Dread Guristas Lead Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(108, "Guristas Small Hybrid Ammo", 21392, "Dread Guristas Thorium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(108, "Guristas Small Hybrid Ammo", 21394, "Dread Guristas Uranium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(108, "Guristas Small Hybrid Ammo", 21396, "Dread Guristas Plutonium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(108, "Guristas Small Hybrid Ammo", 21398, "Dread Guristas Antimatter Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(105, "Serpentis Small Hybrid Ammo", 19962, "Shadow Iron Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(105, "Serpentis Small Hybrid Ammo", 19964, "Shadow Tungsten Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(105, "Serpentis Small Hybrid Ammo", 19966, "Shadow Iridium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(105, "Serpentis Small Hybrid Ammo", 19968, "Shadow Lead Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(105, "Serpentis Small Hybrid Ammo", 20034, "Shadow Thorium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(105, "Serpentis Small Hybrid Ammo", 20036, "Shadow Uranium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(105, "Serpentis Small Hybrid Ammo", 20038, "Shadow Plutonium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(105, "Serpentis Small Hybrid Ammo", 20040, "Shadow Antimatter Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(105, "Serpentis Small Hybrid Ammo", 20945, "Guardian Iron Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(105, "Serpentis Small Hybrid Ammo", 20947, "Guardian Tungsten Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(105, "Serpentis Small Hybrid Ammo", 20949, "Guardian Iridium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(105, "Serpentis Small Hybrid Ammo", 20951, "Guardian Lead Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(105, "Serpentis Small Hybrid Ammo", 20953, "Guardian Thorium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(105, "Serpentis Small Hybrid Ammo", 20955, "Guardian Uranium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(105, "Serpentis Small Hybrid Ammo", 20957, "Guardian Plutonium Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(105, "Serpentis Small Hybrid Ammo", 20959, "Guardian Antimatter Charge S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(114, "Blood Raiders Small Frequency Crystal", 21194, "Blood Radio S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(114, "Blood Raiders Small Frequency Crystal", 21196, "Blood Microwave S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(114, "Blood Raiders Small Frequency Crystal", 21198, "Blood Infrared S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(114, "Blood Raiders Small Frequency Crystal", 21200, "Blood Standard S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(114, "Blood Raiders Small Frequency Crystal", 21202, "Blood Ultraviolet S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(114, "Blood Raiders Small Frequency Crystal", 21204, "Blood Xray S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(114, "Blood Raiders Small Frequency Crystal", 21206, "Blood Gamma S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(114, "Blood Raiders Small Frequency Crystal", 21208, "Blood Multifrequency S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(114, "Blood Raiders Small Frequency Crystal", 21256, "Dark Blood Radio S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(114, "Blood Raiders Small Frequency Crystal", 21258, "Dark Blood Microwave S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(114, "Blood Raiders Small Frequency Crystal", 21260, "Dark Blood Infrared S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(114, "Blood Raiders Small Frequency Crystal", 21262, "Dark Blood Standard S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(114, "Blood Raiders Small Frequency Crystal", 21264, "Dark Blood Ultraviolet S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(114, "Blood Raiders Small Frequency Crystal", 21266, "Dark Blood Xray S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(114, "Blood Raiders Small Frequency Crystal", 21268, "Dark Blood Gamma S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(114, "Blood Raiders Small Frequency Crystal", 21270, "Dark Blood Multifrequency S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(111, "Sansha Small Frequency Crystal", 19978, "Sanshas Radio S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(111, "Sansha Small Frequency Crystal", 19980, "Sanshas Microwave S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(111, "Sansha Small Frequency Crystal", 19982, "Sanshas Infrared S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(111, "Sansha Small Frequency Crystal", 19984, "Sanshas Standard S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(111, "Sansha Small Frequency Crystal", 20817, "Sanshas Ultraviolet S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(111, "Sansha Small Frequency Crystal", 20819, "Sanshas Xray S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(111, "Sansha Small Frequency Crystal", 20821, "Sanshas Gamma S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(111, "Sansha Small Frequency Crystal", 20823, "Sanshas Multifrequency S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(111, "Sansha Small Frequency Crystal", 20849, "True Sanshas Radio S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(111, "Sansha Small Frequency Crystal", 20851, "True Sanshas Microwave S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(111, "Sansha Small Frequency Crystal", 20853, "True Sanshas Infrared S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(111, "Sansha Small Frequency Crystal", 20855, "True Sanshas Standard S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(111, "Sansha Small Frequency Crystal", 20857, "True Sanshas Ultraviolet S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(111, "Sansha Small Frequency Crystal", 20859, "True Sanshas Xray S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(111, "Sansha Small Frequency Crystal", 20861, "True Sanshas Gamma S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(111, "Sansha Small Frequency Crystal", 20863, "True Sanshas Multifrequency S", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(102, "Angel Small Projectile Ammo", 19970, "Arch Angel Carbonized Lead S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(102, "Angel Small Projectile Ammo", 19972, "Arch Angel Nuclear S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(102, "Angel Small Projectile Ammo", 19974, "Arch Angel Proton S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(102, "Angel Small Projectile Ammo", 19976, "Arch Angel Depleted Uranium S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(102, "Angel Small Projectile Ammo", 19986, "Arch Angel Titanium Sabot S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(102, "Angel Small Projectile Ammo", 19988, "Arch Angel Fusion S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(102, "Angel Small Projectile Ammo", 19990, "Arch Angel Phased Plasma S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(102, "Angel Small Projectile Ammo", 19992, "Arch Angel EMP S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(102, "Angel Small Projectile Ammo", 20753, "Domination Carbonized Lead S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(102, "Angel Small Projectile Ammo", 20755, "Domination Nuclear S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(102, "Angel Small Projectile Ammo", 20757, "Domination Proton S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(102, "Angel Small Projectile Ammo", 20759, "Domination Depleted Uranium S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(102, "Angel Small Projectile Ammo", 20761, "Domination Titanium Sabot S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(102, "Angel Small Projectile Ammo", 20763, "Domination Fusion S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(102, "Angel Small Projectile Ammo", 20765, "Domination Phased Plasma S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(102, "Angel Small Projectile Ammo", 20767, "Domination EMP S", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(109, "Guristas Medium Hybrid Ammo", 21336, "Guristas Iron Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(109, "Guristas Medium Hybrid Ammo", 21338, "Guristas Tungsten Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(109, "Guristas Medium Hybrid Ammo", 21340, "Guristas Iridium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(109, "Guristas Medium Hybrid Ammo", 21342, "Guristas Lead Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(109, "Guristas Medium Hybrid Ammo", 21344, "Guristas Thorium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(109, "Guristas Medium Hybrid Ammo", 21346, "Guristas Uranium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(109, "Guristas Medium Hybrid Ammo", 21348, "Guristas Plutonium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(109, "Guristas Medium Hybrid Ammo", 21350, "Guristas Antimatter Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(109, "Guristas Medium Hybrid Ammo", 21400, "Dread Guristas Iron Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(109, "Guristas Medium Hybrid Ammo", 21402, "Dread Guristas Tungsten Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(109, "Guristas Medium Hybrid Ammo", 21404, "Dread Guristas Iridium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(109, "Guristas Medium Hybrid Ammo", 21406, "Dread Guristas Lead Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(109, "Guristas Medium Hybrid Ammo", 21408, "Dread Guristas Thorium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(109, "Guristas Medium Hybrid Ammo", 21410, "Dread Guristas Uranium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(109, "Guristas Medium Hybrid Ammo", 21412, "Dread Guristas Plutonium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(109, "Guristas Medium Hybrid Ammo", 21414, "Dread Guristas Antimatter Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(106, "Serpentis Medium Hybrid Ammo", 20043, "Shadow Iron Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(106, "Serpentis Medium Hybrid Ammo", 20045, "Shadow Tungsten Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(106, "Serpentis Medium Hybrid Ammo", 20047, "Shadow Iridium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(106, "Serpentis Medium Hybrid Ammo", 20049, "Shadow Lead Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(106, "Serpentis Medium Hybrid Ammo", 20051, "Shadow Thorium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(106, "Serpentis Medium Hybrid Ammo", 20053, "Shadow Uranium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(106, "Serpentis Medium Hybrid Ammo", 20055, "Shadow Plutonium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(106, "Serpentis Medium Hybrid Ammo", 20057, "Shadow Antimatter Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(106, "Serpentis Medium Hybrid Ammo", 20961, "Guardian Iron Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(106, "Serpentis Medium Hybrid Ammo", 20963, "Guardian Tungsten Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(106, "Serpentis Medium Hybrid Ammo", 20965, "Guardian Iridium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(106, "Serpentis Medium Hybrid Ammo", 20967, "Guardian Lead Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(106, "Serpentis Medium Hybrid Ammo", 20969, "Guardian Thorium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(106, "Serpentis Medium Hybrid Ammo", 20971, "Guardian Uranium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(106, "Serpentis Medium Hybrid Ammo", 20973, "Guardian Plutonium Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(106, "Serpentis Medium Hybrid Ammo", 20975, "Guardian Antimatter Charge M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(115, "Blood Raiders Medium Frequency Crystal", 21210, "Blood Microwave M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(115, "Blood Raiders Medium Frequency Crystal", 21212, "Blood Infrared M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(115, "Blood Raiders Medium Frequency Crystal", 21214, "Blood Standard M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(115, "Blood Raiders Medium Frequency Crystal", 21216, "Blood Ultraviolet M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(115, "Blood Raiders Medium Frequency Crystal", 21218, "Blood Xray M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(115, "Blood Raiders Medium Frequency Crystal", 21220, "Blood Gamma M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(115, "Blood Raiders Medium Frequency Crystal", 21222, "Blood Multifrequency M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(115, "Blood Raiders Medium Frequency Crystal", 21272, "Dark Blood Radio M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(115, "Blood Raiders Medium Frequency Crystal", 21274, "Dark Blood Microwave M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(115, "Blood Raiders Medium Frequency Crystal", 21276, "Dark Blood Infrared M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(115, "Blood Raiders Medium Frequency Crystal", 21278, "Dark Blood Standard M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(115, "Blood Raiders Medium Frequency Crystal", 21280, "Dark Blood Ultraviolet M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(115, "Blood Raiders Medium Frequency Crystal", 21282, "Dark Blood Xray M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(115, "Blood Raiders Medium Frequency Crystal", 21284, "Dark Blood Gamma M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(115, "Blood Raiders Medium Frequency Crystal", 21286, "Dark Blood Multifrequency M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(115, "Blood Raiders Medium Frequency Crystal", 21450, "Blood Radio M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(112, "Sansha Medium Frequency Crystal", 20010, "Sanshas Radio M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(112, "Sansha Medium Frequency Crystal", 20012, "Sanshas Microwave M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(112, "Sansha Medium Frequency Crystal", 20014, "Sanshas Infrared M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(112, "Sansha Medium Frequency Crystal", 20016, "Sanshas Standard M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(112, "Sansha Medium Frequency Crystal", 20825, "Sanshas Ultraviolet M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(112, "Sansha Medium Frequency Crystal", 20827, "Sanshas Xray M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(112, "Sansha Medium Frequency Crystal", 20829, "Sanshas Gamma M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(112, "Sansha Medium Frequency Crystal", 20831, "Sanshas Multifrequency M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(112, "Sansha Medium Frequency Crystal", 20865, "True Sanshas Radio M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(112, "Sansha Medium Frequency Crystal", 20867, "True Sanshas Microwave M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(112, "Sansha Medium Frequency Crystal", 20869, "True Sanshas Infrared M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(112, "Sansha Medium Frequency Crystal", 20871, "True Sanshas Standard M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(112, "Sansha Medium Frequency Crystal", 20873, "True Sanshas Ultraviolet M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(112, "Sansha Medium Frequency Crystal", 20875, "True Sanshas Xray M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(112, "Sansha Medium Frequency Crystal", 20877, "True Sanshas Gamma M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(112, "Sansha Medium Frequency Crystal", 20879, "True Sanshas Multifrequency M", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(103, "Angel Medium Projectile Ammo", 19994, "Arch Angel Carbonized Lead M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(103, "Angel Medium Projectile Ammo", 19996, "Arch Angel Nuclear M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(103, "Angel Medium Projectile Ammo", 19998, "Arch Angel Proton M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(103, "Angel Medium Projectile Ammo", 20000, "Arch Angel Depleted Uranium M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(103, "Angel Medium Projectile Ammo", 20002, "Arch Angel Titanium Sabot M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(103, "Angel Medium Projectile Ammo", 20004, "Arch Angel Fusion M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(103, "Angel Medium Projectile Ammo", 20006, "Arch Angel Phased Plasma M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(103, "Angel Medium Projectile Ammo", 20008, "Arch Angel EMP M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(103, "Angel Medium Projectile Ammo", 20769, "Domination Carbonized Lead M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(103, "Angel Medium Projectile Ammo", 20771, "Domination Nuclear M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(103, "Angel Medium Projectile Ammo", 20773, "Domination Proton M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(103, "Angel Medium Projectile Ammo", 20775, "Domination Depleted Uranium M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(103, "Angel Medium Projectile Ammo", 20777, "Domination Titanium Sabot M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(103, "Angel Medium Projectile Ammo", 20779, "Domination Fusion M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(103, "Angel Medium Projectile Ammo", 20781, "Domination Phased Plasma M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(103, "Angel Medium Projectile Ammo", 20783, "Domination EMP M", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(110, "Guristas Large Hybrid Ammo", 21352, "Guristas Iron Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(110, "Guristas Large Hybrid Ammo", 21354, "Guristas Tungsten Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(110, "Guristas Large Hybrid Ammo", 21356, "Guristas Iridium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(110, "Guristas Large Hybrid Ammo", 21358, "Guristas Lead Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(110, "Guristas Large Hybrid Ammo", 21360, "Guristas Thorium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(110, "Guristas Large Hybrid Ammo", 21362, "Guristas Uranium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(110, "Guristas Large Hybrid Ammo", 21364, "Guristas Plutonium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(110, "Guristas Large Hybrid Ammo", 21366, "Guristas Antimatter Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(110, "Guristas Large Hybrid Ammo", 21416, "Dread Guristas Iron Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(110, "Guristas Large Hybrid Ammo", 21418, "Dread Guristas Tungsten Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(110, "Guristas Large Hybrid Ammo", 21420, "Dread Guristas Iridium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(110, "Guristas Large Hybrid Ammo", 21422, "Dread Guristas Lead Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(110, "Guristas Large Hybrid Ammo", 21424, "Dread Guristas Thorium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(110, "Guristas Large Hybrid Ammo", 21426, "Dread Guristas Uranium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(110, "Guristas Large Hybrid Ammo", 21428, "Dread Guristas Plutonium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(110, "Guristas Large Hybrid Ammo", 21430, "Dread Guristas Antimatter Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(107, "Serpentis Large Hybrid Ammo", 20913, "Shadow Iron Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(107, "Serpentis Large Hybrid Ammo", 20915, "Shadow Tungsten Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(107, "Serpentis Large Hybrid Ammo", 20917, "Shadow Iridium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(107, "Serpentis Large Hybrid Ammo", 20919, "Shadow Lead Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(107, "Serpentis Large Hybrid Ammo", 20921, "Shadow Thorium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(107, "Serpentis Large Hybrid Ammo", 20923, "Shadow Uranium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(107, "Serpentis Large Hybrid Ammo", 20925, "Shadow Plutonium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(107, "Serpentis Large Hybrid Ammo", 20927, "Shadow Antimatter Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(107, "Serpentis Large Hybrid Ammo", 20977, "Guardian Iron Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(107, "Serpentis Large Hybrid Ammo", 20979, "Guardian Tungsten Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(107, "Serpentis Large Hybrid Ammo", 20981, "Guardian Iridium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(107, "Serpentis Large Hybrid Ammo", 20983, "Guardian Lead Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(107, "Serpentis Large Hybrid Ammo", 20985, "Guardian Thorium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(107, "Serpentis Large Hybrid Ammo", 20987, "Guardian Uranium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(107, "Serpentis Large Hybrid Ammo", 20989, "Guardian Plutonium Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(107, "Serpentis Large Hybrid Ammo", 20991, "Guardian Antimatter Charge L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(116, "Blood Raiders Large Frequency Crystal", 21224, "Blood Radio L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(116, "Blood Raiders Large Frequency Crystal", 21226, "Blood Microwave L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(116, "Blood Raiders Large Frequency Crystal", 21228, "Blood Infrared L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(116, "Blood Raiders Large Frequency Crystal", 21230, "Blood Standard L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(116, "Blood Raiders Large Frequency Crystal", 21232, "Blood Ultraviolet L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(116, "Blood Raiders Large Frequency Crystal", 21234, "Blood Xray L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(116, "Blood Raiders Large Frequency Crystal", 21236, "Blood Gamma L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(116, "Blood Raiders Large Frequency Crystal", 21238, "Blood Multifrequency L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(116, "Blood Raiders Large Frequency Crystal", 21288, "Dark Blood Radio L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(116, "Blood Raiders Large Frequency Crystal", 21290, "Dark Blood Microwave L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(116, "Blood Raiders Large Frequency Crystal", 21292, "Dark Blood Infrared L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(116, "Blood Raiders Large Frequency Crystal", 21294, "Dark Blood Standard L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(116, "Blood Raiders Large Frequency Crystal", 21296, "Dark Blood Ultraviolet L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(116, "Blood Raiders Large Frequency Crystal", 21298, "Dark Blood Xray L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(116, "Blood Raiders Large Frequency Crystal", 21300, "Dark Blood Gamma L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(116, "Blood Raiders Large Frequency Crystal", 21302, "Dark Blood Multifrequency L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(113, "Sansha Large Frequency Crystal", 20018, "Sanshas Radio L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(113, "Sansha Large Frequency Crystal", 20020, "Sanshas Microwave L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(113, "Sansha Large Frequency Crystal", 20022, "Sanshas Infrared L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(113, "Sansha Large Frequency Crystal", 20024, "Sanshas Standard L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(113, "Sansha Large Frequency Crystal", 20833, "Sanshas Ultraviolet L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(113, "Sansha Large Frequency Crystal", 20835, "Sanshas Xray L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(113, "Sansha Large Frequency Crystal", 20837, "Sanshas Gamma L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(113, "Sansha Large Frequency Crystal", 20839, "Sanshas Multifrequency L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(113, "Sansha Large Frequency Crystal", 20881, "True Sanshas Radio L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(113, "Sansha Large Frequency Crystal", 20883, "True Sanshas Microwave L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(113, "Sansha Large Frequency Crystal", 20885, "True Sanshas Infrared L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(113, "Sansha Large Frequency Crystal", 20887, "True Sanshas Standard L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(113, "Sansha Large Frequency Crystal", 20889, "True Sanshas Ultraviolet L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(113, "Sansha Large Frequency Crystal", 20891, "True Sanshas Xray L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(113, "Sansha Large Frequency Crystal", 20893, "True Sanshas Gamma L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(113, "Sansha Large Frequency Crystal", 20895, "True Sanshas Multifrequency L", 1, 0.25, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(104, "Angel Large Projectile Ammo", 20721, "Arch Angel Carbonized Lead L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(104, "Angel Large Projectile Ammo", 20723, "Arch Angel Nuclear L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(104, "Angel Large Projectile Ammo", 20725, "Arch Angel Proton L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(104, "Angel Large Projectile Ammo", 20727, "Arch Angel Depleted Uranium L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(104, "Angel Large Projectile Ammo", 20729, "Arch Angel Titanium Sabot L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(104, "Angel Large Projectile Ammo", 20731, "Arch Angel Fusion L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(104, "Angel Large Projectile Ammo", 20733, "Arch Angel Phased Plasma L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(104, "Angel Large Projectile Ammo", 20735, "Arch Angel EMP L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(104, "Angel Large Projectile Ammo", 20785, "Domination Carbonized Lead L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(104, "Angel Large Projectile Ammo", 20787, "Domination Nuclear L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(104, "Angel Large Projectile Ammo", 20789, "Domination Proton L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(104, "Angel Large Projectile Ammo", 20791, "Domination Depleted Uranium L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(104, "Angel Large Projectile Ammo", 20793, "Domination Titanium Sabot L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(104, "Angel Large Projectile Ammo", 20795, "Domination Fusion L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(104, "Angel Large Projectile Ammo", 20797, "Domination Phased Plasma L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(104, "Angel Large Projectile Ammo", 20799, "Domination EMP L", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(96, "Rocket", 266, "Thorn Rocket", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(96, "Rocket", 2512, "Gremlin Rocket", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(96, "Rocket", 2514, "Foxfire Rocket", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(96, "Rocket", 2516, "Phalanx Rocket", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(118, "Sansha Rocket", 27883, "Sansha Gremlin Rocket", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(118, "Sansha Rocket", 27884, "True Sansha Gremlin Rocket", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(117, "Guristas Rocket", 27313, "Guristas Foxfire Rocket", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(117, "Guristas Rocket", 27317, "Dread Guristas Foxfire Rocket", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(117, "Guristas Rocket", 27319, "Guristas Gremlin Rocket", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(117, "Guristas Rocket", 27323, "Dread Guristas Gremlin Rocket", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(117, "Guristas Rocket", 27325, "Guristas Phalanx Rocket", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(117, "Guristas Rocket", 27329, "Dread Guristas Phalanx Rocket", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(117, "Guristas Rocket", 27331, "Guristas Thorn Rocket", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(117, "Guristas Rocket", 27335, "Dread Guristas Thorn Rocket", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(97, "Light Missile", 210, "Bloodclaw Light Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(97, "Light Missile", 211, "Flameburst Light Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(97, "Light Missile", 212, "Sabretooth Light Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(97, "Light Missile", 213, "Piranha Light Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(120, "Sansha Light Missile", 27885, "Sansha Sabretooth Light Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(120, "Sansha Light Missile", 27886, "True Sansha Sabretooth Light Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(119, "Guristas Light Missile", 27353, "Guristas Bloodclaw Light Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(119, "Guristas Light Missile", 27365, "Dread Guristas Bloodclaw Light Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(119, "Guristas Light Missile", 27367, "Guristas Flameburst Light Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(119, "Guristas Light Missile", 27369, "Dread Guristas Flameburst Light Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(119, "Guristas Light Missile", 27375, "Dread Guristas Piranha Light Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(119, "Guristas Light Missile", 27379, "Guristas Piranha Light Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(119, "Guristas Light Missile", 27383, "Guristas Sabretooth Light Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(119, "Guristas Light Missile", 27385, "Dread Guristas Sabretooth Light Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(98, "Heavy Missile", 206, "Havoc Heavy Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(98, "Heavy Missile", 207, "Thunderbolt Heavy Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(98, "Heavy Missile", 208, "Widowmaker Heavy Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(98, "Heavy Missile", 209, "Scourge Heavy Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(122, "Sansha Heavy Missile", 27889, "Sansha Thunderbolt Heavy Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(122, "Sansha Heavy Missile", 27890, "True Sansha Thunderbolt Heavy Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(121, "Guristas Heavy Missile", 27433, "Guristas Thunderbolt Heavy Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(121, "Guristas Heavy Missile", 27437, "Dread Guristas Thunderbolt Heavy Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(121, "Guristas Heavy Missile", 27439, "Guristas Scourge Heavy Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(121, "Guristas Heavy Missile", 27443, "Dread Guristas Scourge Heavy Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(121, "Guristas Heavy Missile", 27445, "Guristas Widowmaker Heavy Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(121, "Guristas Heavy Missile", 27449, "Dread Guristas Widowmaker Heavy Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(121, "Guristas Heavy Missile", 27451, "Guristas Havoc Heavy Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(121, "Guristas Heavy Missile", 27455, "Dread Guristas Havoc Heavy Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(99, "Heavy Assault Missile", 20306, "Torrent Assault Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(99, "Heavy Assault Missile", 20307, "Terror Assault Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(99, "Heavy Assault Missile", 20308, "Hellfire Assault Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(99, "Heavy Assault Missile", 21867, "Fulmination Assault Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(124, "Sansha Heavy Assault Missile", 27887, "Sansha Torrent Assault Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(124, "Sansha Heavy Assault Missile", 27888, "True Sansha Torrent Assault Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(123, "Guristas Heavy Assault Missile", 27393, "Guristas Fulmination Assault Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(123, "Guristas Heavy Assault Missile", 27397, "Dread Guristas Fulmination Assault Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(123, "Guristas Heavy Assault Missile", 27403, "Guristas Hellfire Assault Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(123, "Guristas Heavy Assault Missile", 27407, "Dread Guristas Hellfire Assault Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(123, "Guristas Heavy Assault Missile", 27411, "Guristas Terror Assault Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(123, "Guristas Heavy Assault Missile", 27415, "Dread Guristas Terror Assault Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(123, "Guristas Heavy Assault Missile", 27417, "Guristas Torrent Assault Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(123, "Guristas Heavy Assault Missile", 27421, "Dread Guristas Torrent Assault Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(100, "Cruise Missile", 202, "Paradise Cruise Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(100, "Cruise Missile", 203, "Wrath Cruise Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(100, "Cruise Missile", 204, "Cataclysm Cruise Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(100, "Cruise Missile", 205, "Devastator Cruise Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(126, "Sansha Cruise Missile", 27893, "Sansha Paradise Cruise Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(126, "Sansha Cruise Missile", 27894, "True Sansha Paradise Cruise Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(125, "Guristas Cruise Missile", 27373, "Guristas Paradise Cruise Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(125, "Guristas Cruise Missile", 27389, "Dread Guristas Paradise Cruise Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(125, "Guristas Cruise Missile", 27391, "Guristas Wrath Cruise Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(125, "Guristas Cruise Missile", 27399, "Dread Guristas Wrath Cruise Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(125, "Guristas Cruise Missile", 27409, "Guristas Cataclysm Cruise Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(125, "Guristas Cruise Missile", 27425, "Dread Guristas Cataclysm Cruise Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(125, "Guristas Cruise Missile", 27427, "Guristas Devastator Cruise Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(125, "Guristas Cruise Missile", 27431, "Dread Guristas Devastator Cruise Missile", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(101, "Torpedo", 2210, "Banshee Torpedo", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(101, "Torpedo", 2506, "Mjolnir Torpedo", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(101, "Torpedo", 2508, "Bane Torpedo", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(101, "Torpedo", 2510, "Inferno Torpedo", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(128, "Sansha Torpedo", 27891, "Sansha Mjolnir Torpedo", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(128, "Sansha Torpedo", 27892, "True Sansha Mjolnir Torpedo", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(127, "Guristas Torpedo", 27337, "Guristas Mjolnir Torpedo", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(127, "Guristas Torpedo", 27341, "Dread Guristas Mjolnir Torpedo", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(127, "Guristas Torpedo", 27349, "Guristas Inferno Torpedo", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(127, "Guristas Torpedo", 27355, "Dread Guristas Inferno Torpedo", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(127, "Guristas Torpedo", 27357, "Guristas Bane Torpedo", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(127, "Guristas Torpedo", 27363, "Dread Guristas Bane Torpedo", 1, 0.25, 100, 100);
