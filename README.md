@@ -11,7 +11,7 @@ Or, alternatively, you can use the local copy of the module from this repo.
 - First off, you need to install the PyMySQL module. If you're using the local copy - simply copy the pymysql folder to the lib folder in your Python 3.x installation (e.g. C:/Python 3.4/lib).
 - Dump the lootItemGroupNames.sql table in your EVEmu DB
 - Open the dispenser.py file and set-up the config settings (MySQL connection settings and output folder)
-- Run the modules_dispenser.py
+- Run the module_dispenser.py
 - (Ammo adding) Run the ammunition_dispenser.py. It will append the new queries into files, created by module dispenser.
 
 For now the script makes a bulk dump of a few module groups (Energy/Projectile/Hybrid turrets, all sub-cap missile launchers, shield boosters/extenders, hull/armor repairers and armor plates. Meta-0 to Meta-4) and binds them to all Asteroid Pirate NPC groups (Sansha, Blood Raiders, Guristas, Serpentis, Angel Cartel).
