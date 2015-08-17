@@ -139,4 +139,11 @@ INSERT INTO lootItemGroupNames (lootGroupID, lootGroupName, parentGroupID, paren
 (125, 'Guristas Cruise Missile', 386, 'Cruise Missile'),
 (126, 'Sansha Cruise Missile', 386, 'Cruise Missile'),
 (127, 'Guristas Torpedo', 89, 'Torpedo'),
-(128, 'Sansha Torpedo', 89, 'Torpedo');
+(128, 'Sansha Torpedo', 89, 'Torpedo'),
+# Rogue drone alloys section
+(129, 'Low-grade alloys(High chance)', 355, 'Refinables'),
+(130, 'Low-grade alloys(Low chance)', 355, 'Refinables'),
+(131, 'Mid-grade alloys(High chance)', 355, 'Refinables'),
+(132, 'Mid-grade alloys(Low chance)', 355, 'Refinables'),
+(133, 'High-grade alloys(High chance)', 355, 'Refinables'),
+(134, 'High-grade alloys(Low chance)', 355, 'Refinables');

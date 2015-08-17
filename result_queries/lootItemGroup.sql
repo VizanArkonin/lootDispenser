@@ -2609,3 +2609,75 @@ INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMet
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
 (127, "Guristas Torpedo", 27363, "Dread Guristas Bane Torpedo", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(129, "Low-grade alloys(High chance)", 11735, "Dark Compound", 0, 0.25, 1, 7);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(129, "Low-grade alloys(High chance)", 11737, "Precious Alloy", 0, 0.25, 1, 7);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(129, "Low-grade alloys(High chance)", 11739, "Condensed Alloy", 0, 0.25, 1, 7);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(129, "Low-grade alloys(High chance)", 11740, "Gleaming Alloy", 0, 0.25, 1, 7);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(129, "Low-grade alloys(High chance)", 11741, "Crystal Compound", 0, 0.25, 1, 7);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(130, "Low-grade alloys(Low chance)", 11735, "Dark Compound", 0, 0.1, 1, 3);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(130, "Low-grade alloys(Low chance)", 11737, "Precious Alloy", 0, 0.1, 1, 3);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(130, "Low-grade alloys(Low chance)", 11739, "Condensed Alloy", 0, 0.1, 1, 3);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(130, "Low-grade alloys(Low chance)", 11740, "Gleaming Alloy", 0, 0.1, 1, 3);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(130, "Low-grade alloys(Low chance)", 11741, "Crystal Compound", 0, 0.1, 1, 3);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(131, "Mid-grade alloys(High chance)", 11732, "Sheen Compound", 0, 0.25, 1, 7);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(131, "Mid-grade alloys(High chance)", 11733, "Motley Compound", 0, 0.25, 1, 7);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(131, "Mid-grade alloys(High chance)", 11738, "Lucent Compound", 0, 0.25, 1, 7);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(132, "Mid-grade alloys(Low chance)", 11732, "Sheen Compound", 0, 0.1, 1, 3);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(132, "Mid-grade alloys(Low chance)", 11733, "Motley Compound", 0, 0.1, 1, 3);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(132, "Mid-grade alloys(Low chance)", 11738, "Lucent Compound", 0, 0.1, 1, 3);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(133, "High-grade alloys(High chance)", 11724, "Glossy Compound", 0, 0.25, 1, 7);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(133, "High-grade alloys(High chance)", 11725, "Plush Compound", 0, 0.25, 1, 7);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(133, "High-grade alloys(High chance)", 11734, "Opulent Compound", 0, 0.25, 1, 7);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(133, "High-grade alloys(High chance)", 11736, "Lustering Alloy", 0, 0.25, 1, 7);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(134, "High-grade alloys(Low chance)", 11724, "Glossy Compound", 0, 0.1, 1, 3);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(134, "High-grade alloys(Low chance)", 11725, "Plush Compound", 0, 0.1, 1, 3);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(134, "High-grade alloys(Low chance)", 11734, "Opulent Compound", 0, 0.1, 1, 3);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(134, "High-grade alloys(Low chance)", 11736, "Lustering Alloy", 0, 0.1, 1, 3);

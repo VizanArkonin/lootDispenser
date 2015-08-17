@@ -367,7 +367,7 @@ def loot_group_write(group_id, size, npc_group_id, mode, faction):
     first_file_append.writelines("INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, \
 itemGroupID, itemGroupName) \n\
 VALUES \n")
-    first_file_append.write("(" + str(npc_group_id) + ", " + '"' + npc_group_name + '"' + ", " + "0.5" + ", "
+    first_file_append.write("(" + str(npc_group_id) + ", " + '"' + npc_group_name + '"' + ", " + "0.3" + ", "
                                 + str(module_group) + ", " + '"' + module_group_name + '"' + ");")
     first_file_append.write('\n')
     # Closing the file.
