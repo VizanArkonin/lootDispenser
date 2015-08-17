@@ -1384,52 +1384,142 @@ VALUES
 (852, "Asteroid Serpentis Commander Battleship", 0.3, 107, "Serpentis Large Hybrid Ammo");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
 VALUES 
-(761, "Asteroid Rogue Drone Swarm", 0.3, 129, "Swarm drone alloys");
+(761, "Asteroid Rogue Drone Swarm", 0.3, 129, "Low-grade alloys(High chance)");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
 VALUES 
-(759, "Asteroid Rogue Drone Frigate", 0.3, 130, "Frigate drone alloys");
+(806, "Deadspace Rogue Drone Swarm", 0.3, 129, "Low-grade alloys(High chance)");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
 VALUES 
-(758, "Asteroid Rogue Drone Destroyer", 0.3, 131, "Destroyer drone alloys");
+(759, "Asteroid Rogue Drone Frigate", 0.3, 129, "Low-grade alloys(High chance)");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
 VALUES 
-(757, "Asteroid Rogue Drone Cruiser", 0.3, 132, "Cruiser drone alloys");
+(759, "Asteroid Rogue Drone Frigate", 0.1, 132, "Mid-grade alloys(Low chance)");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
 VALUES 
-(755, "Asteroid Rogue Drone BattleCruiser", 0.3, 133, "BattleCruiser drone alloys");
+(759, "Asteroid Rogue Drone Frigate", 0.05, 134, "High-grade alloys(Low chance)");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
 VALUES 
-(756, "Asteroid Rogue Drone Battleship", 0.3, 134, "Battleship drone alloys");
+(805, "Deadspace Rogue Drone Frigate", 0.3, 129, "Low-grade alloys(High chance)");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
 VALUES 
-(806, "Deadspace Rogue Drone Swarm", 0.3, 129, "Swarm drone alloys");
+(805, "Deadspace Rogue Drone Frigate", 0.1, 132, "Mid-grade alloys(Low chance)");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
 VALUES 
-(805, "Deadspace Rogue Drone Frigate", 0.3, 130, "Frigate drone alloys");
+(805, "Deadspace Rogue Drone Frigate", 0.05, 134, "High-grade alloys(Low chance)");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
 VALUES 
-(804, "Deadspace Rogue Drone Destroyer", 0.3, 131, "Destroyer drone alloys");
+(847, "Asteroid Rogue Drone Commander Frigate", 0.3, 129, "Low-grade alloys(High chance)");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
 VALUES 
-(803, "Deadspace Rogue Drone Cruiser", 0.3, 132, "Cruiser drone alloys");
+(847, "Asteroid Rogue Drone Commander Frigate", 0.1, 132, "Mid-grade alloys(Low chance)");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
 VALUES 
-(801, "Deadspace Rogue Drone BattleCruiser", 0.3, 133, "BattleCruiser drone alloys");
+(847, "Asteroid Rogue Drone Commander Frigate", 0.05, 134, "High-grade alloys(Low chance)");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
 VALUES 
-(802, "Deadspace Rogue Drone Battleship", 0.3, 134, "Battleship drone alloys");
+(758, "Asteroid Rogue Drone Destroyer", 0.3, 129, "Low-grade alloys(High chance)");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
 VALUES 
-(847, "Asteroid Rogue Drone Commander Frigate", 0.3, 130, "Frigate drone alloys");
+(758, "Asteroid Rogue Drone Destroyer", 0.15, 132, "Mid-grade alloys(Low chance)");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
 VALUES 
-(846, "Asteroid Rogue Drone Commander Destroyer", 0.3, 131, "Destroyer drone alloys");
+(758, "Asteroid Rogue Drone Destroyer", 0.1, 134, "High-grade alloys(Low chance)");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
 VALUES 
-(845, "Asteroid Rogue Drone Commander Cruiser", 0.3, 132, "Cruiser drone alloys");
+(804, "Deadspace Rogue Drone Destroyer", 0.3, 129, "Low-grade alloys(High chance)");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
 VALUES 
-(843, "Asteroid Rogue Drone Commander BattleCruiser", 0.3, 133, "BattleCruiser drone alloys");
+(804, "Deadspace Rogue Drone Destroyer", 0.15, 132, "Mid-grade alloys(Low chance)");
 INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
 VALUES 
-(844, "Asteroid Rogue Drone Commander Battleship", 0.3, 134, "Battleship drone alloys");
+(804, "Deadspace Rogue Drone Destroyer", 0.1, 134, "High-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(846, "Asteroid Rogue Drone Commander Destroyer", 0.3, 129, "Low-grade alloys(High chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(846, "Asteroid Rogue Drone Commander Destroyer", 0.15, 132, "Mid-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(846, "Asteroid Rogue Drone Commander Destroyer", 0.1, 134, "High-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(757, "Asteroid Rogue Drone Cruiser", 0.3, 131, "Mid-grade alloys(High chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(757, "Asteroid Rogue Drone Cruiser", 0.15, 130, "Low-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(757, "Asteroid Rogue Drone Cruiser", 0.05, 134, "High-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(803, "Deadspace Rogue Drone Cruiser", 0.3, 131, "Mid-grade alloys(High chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(803, "Deadspace Rogue Drone Cruiser", 0.15, 130, "Low-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(803, "Deadspace Rogue Drone Cruiser", 0.05, 134, "High-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(845, "Asteroid Rogue Drone Commander Cruiser", 0.3, 131, "Mid-grade alloys(High chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(845, "Asteroid Rogue Drone Commander Cruiser", 0.15, 130, "Low-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(845, "Asteroid Rogue Drone Commander Cruiser", 0.05, 134, "High-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(755, "Asteroid Rogue Drone BattleCruiser", 0.3, 131, "Mid-grade alloys(High chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(755, "Asteroid Rogue Drone BattleCruiser", 0.15, 130, "Low-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(755, "Asteroid Rogue Drone BattleCruiser", 0.1, 134, "High-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(801, "Deadspace Rogue Drone BattleCruiser", 0.3, 131, "Mid-grade alloys(High chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(801, "Deadspace Rogue Drone BattleCruiser", 0.15, 130, "Low-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(801, "Deadspace Rogue Drone BattleCruiser", 0.1, 134, "High-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(843, "Asteroid Rogue Drone Commander BattleCruiser", 0.3, 131, "Mid-grade alloys(High chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(843, "Asteroid Rogue Drone Commander BattleCruiser", 0.15, 130, "Low-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(843, "Asteroid Rogue Drone Commander BattleCruiser", 0.1, 134, "High-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(756, "Asteroid Rogue Drone Battleship", 0.3, 133, "High-grade alloys(High chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(756, "Asteroid Rogue Drone Battleship", 0.15, 130, "Low-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(756, "Asteroid Rogue Drone Battleship", 0.15, 132, "Mid-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(802, "Deadspace Rogue Drone Battleship", 0.3, 133, "High-grade alloys(High chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(802, "Deadspace Rogue Drone Battleship", 0.15, 130, "Low-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(802, "Deadspace Rogue Drone Battleship", 0.15, 132, "Mid-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(844, "Asteroid Rogue Drone Commander Battleship", 0.3, 133, "High-grade alloys(High chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(844, "Asteroid Rogue Drone Commander Battleship", 0.15, 130, "Low-grade alloys(Low chance)");
+INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, itemGroupID, itemGroupName) 
+VALUES 
+(844, "Asteroid Rogue Drone Commander Battleship", 0.15, 132, "Mid-grade alloys(Low chance)");

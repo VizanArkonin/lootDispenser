@@ -98,7 +98,7 @@ itemGroup <-> NPC group binding library.
 Key - NPC group ID
 Value - itemGroupID
 '''
-
+'''
 itemGroupLibrary = {761: 129,  # Asteroid Rogue Drone Swarm
                     759: 130,  # Asteroid Rogue Drone Frigate
                     758: 131,  # Asteroid Rogue Drone Destroyer
@@ -117,24 +117,20 @@ itemGroupLibrary = {761: 129,  # Asteroid Rogue Drone Swarm
                     843: 133,  # Asteroid Rogue Drone Commander BattleCruiser
                     844: 134   # Asteroid Rogue Drone Commander Battleship
                     }
-
+'''
 
 # =================================================================================================================== #
 #                                                 Functions Section                                                   #
 # =================================================================================================================== #
 
 
-def loot_group_write(npc_group_id):
+def loot_group_write(npc_group_id, loot_group_id, chance):
     # Output file setup:
     loot_group_file = workDir + 'lootGroup.sql'
 
-    # Defining the group, based on NPC size.
-    # Using the separate dictionary to do the job now.
-    item_group = itemGroupLibrary[npc_group_id]
-
     # Executing queries:
     cur1.executemany("SELECT groupID, groupName FROM invGroups WHERE groupID = %s", [npc_group_id])
-    cur2.executemany("SELECT lootGroupID, lootGroupName FROM lootItemGroupNames WHERE lootGroupID = %s", [item_group])
+    cur2.executemany("SELECT lootGroupID, lootGroupName FROM lootItemGroupNames WHERE lootGroupID = %s", [loot_group_id])
 
     # Main processing branch:
     # Working with the cursor directly is a pain in the ass, so i had to use
@@ -152,8 +148,8 @@ def loot_group_write(npc_group_id):
     first_file_append.writelines("INSERT INTO lootGroup (npcGroupID, npcGroupName, groupDropChance, \
 itemGroupID, itemGroupName) \n\
 VALUES \n")
-    first_file_append.write("(" + str(npc_group_id) + ", " + '"' + npc_group_name + '"' + ", " + "0.3" + ", "
-                                + str(item_group) + ", " + '"' + item_group_name + '"' + ");")
+    first_file_append.write("(" + str(npc_group_id) + ", " + '"' + npc_group_name + '"' + ", " + str(chance) + ", "
+                                + str(loot_group_id) + ", " + '"' + item_group_name + '"' + ");")
     first_file_append.write('\n')
     # Closing the file.
     first_file_append.close()
@@ -220,28 +216,41 @@ itemDropChance, minAmount, maxAmount) \n \
 '''
 Base alloys distribution between the itemGroups
 '''
-loot_item_group_write(129, 1, 1, 2, 0.25)
-loot_item_group_write(130, 1, 1, 4, 0.25)
-loot_item_group_write(130, 2, 1, 2, 0.1)
-loot_item_group_write(130, 3, 1, 1, 0.05)
-loot_item_group_write(131, 1, 1, 6, 0.25)
-loot_item_group_write(131, 2, 1, 2, 0.15)
-loot_item_group_write(131, 3, 1, 1, 0.1)
-loot_item_group_write(132, 1, 1, 5, 0.3)
-loot_item_group_write(132, 2, 1, 3, 0.25)
-loot_item_group_write(132, 3, 1, 1, 0.05)
-loot_item_group_write(133, 1, 1, 7, 0.3)
-loot_item_group_write(133, 2, 1, 6, 0.25)
-loot_item_group_write(133, 3, 1, 1, 0.1)
-loot_item_group_write(134, 1, 1, 10, 0.3)
-loot_item_group_write(134, 2, 1, 5, 0.25)
-loot_item_group_write(134, 3, 1, 5, 0.25)
+loot_item_group_write(129, 1, 1, 7, 0.25)
+loot_item_group_write(130, 1, 1, 3, 0.1)
+loot_item_group_write(131, 2, 1, 7, 0.25)
+loot_item_group_write(132, 2, 1, 3, 0.1)
+loot_item_group_write(133, 3, 1, 7, 0.25)
+loot_item_group_write(134, 3, 1, 3, 0.1)
+
 
 '''
 Rat groups distribution
 '''
-for npc_id in (761, 759, 758, 757, 755, 756, 806, 805, 804, 803, 801, 802, 847, 846, 845, 843, 844):
-    loot_group_write(npc_id)
+
+for npc_id in (761, 806):
+    loot_group_write(npc_id, 129, 0.3)
+for npc_id in (759, 805, 847):
+    loot_group_write(npc_id, 129, 0.3)
+    loot_group_write(npc_id, 132, 0.1)
+    loot_group_write(npc_id, 134, 0.05)
+for npc_id in (758, 804, 846):
+    loot_group_write(npc_id, 129, 0.3)
+    loot_group_write(npc_id, 132, 0.15)
+    loot_group_write(npc_id, 134, 0.1)
+for npc_id in (757, 803, 845):
+    loot_group_write(npc_id, 131, 0.3)
+    loot_group_write(npc_id, 130, 0.15)
+    loot_group_write(npc_id, 134, 0.05)
+for npc_id in (755, 801, 843):
+    loot_group_write(npc_id, 131, 0.3)
+    loot_group_write(npc_id, 130, 0.15)
+    loot_group_write(npc_id, 134, 0.1)
+for npc_id in (756, 802, 844):
+    loot_group_write(npc_id, 133, 0.3)
+    loot_group_write(npc_id, 130, 0.15)
+    loot_group_write(npc_id, 132, 0.15)
+
 
 # Closing the cursors and MySQL connections
 cur1.close()

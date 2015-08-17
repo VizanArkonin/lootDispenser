@@ -141,9 +141,9 @@ INSERT INTO lootItemGroupNames (lootGroupID, lootGroupName, parentGroupID, paren
 (127, 'Guristas Torpedo', 89, 'Torpedo'),
 (128, 'Sansha Torpedo', 89, 'Torpedo'),
 # Rogue drone alloys section
-(129, 'Swarm drone alloys', 355, 'Refinables'),
-(130, 'Frigate drone alloys', 355, 'Refinables'),
-(131, 'Destroyer drone alloys', 355, 'Refinables'),
-(132, 'Cruiser drone alloys', 355, 'Refinables'),
-(133, 'BattleCruiser drone alloys', 355, 'Refinables'),
-(134, 'Battleship drone alloys', 355, 'Refinables');
+(129, 'Low-grade alloys(High chance)', 355, 'Refinables'),
+(130, 'Low-grade alloys(Low chance)', 355, 'Refinables'),
+(131, 'Mid-grade alloys(High chance)', 355, 'Refinables'),
+(132, 'Mid-grade alloys(Low chance)', 355, 'Refinables'),
+(133, 'High-grade alloys(High chance)', 355, 'Refinables'),
+(134, 'High-grade alloys(Low chance)', 355, 'Refinables');
