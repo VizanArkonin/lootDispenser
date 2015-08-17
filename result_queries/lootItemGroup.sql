@@ -2609,3 +2609,198 @@ INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMet
 INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
   VALUES 
 (127, "Guristas Torpedo", 27363, "Dread Guristas Bane Torpedo", 1, 0.25, 100, 100);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(129, "Swarm drone alloys", 11735, "Dark Compound", 0, 0.25, 1, 2);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(129, "Swarm drone alloys", 11737, "Precious Alloy", 0, 0.25, 1, 2);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(129, "Swarm drone alloys", 11739, "Condensed Alloy", 0, 0.25, 1, 2);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(129, "Swarm drone alloys", 11740, "Gleaming Alloy", 0, 0.25, 1, 2);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(129, "Swarm drone alloys", 11741, "Crystal Compound", 0, 0.25, 1, 2);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(130, "Frigate drone alloys", 11735, "Dark Compound", 0, 0.25, 1, 4);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(130, "Frigate drone alloys", 11737, "Precious Alloy", 0, 0.25, 1, 4);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(130, "Frigate drone alloys", 11739, "Condensed Alloy", 0, 0.25, 1, 4);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(130, "Frigate drone alloys", 11740, "Gleaming Alloy", 0, 0.25, 1, 4);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(130, "Frigate drone alloys", 11741, "Crystal Compound", 0, 0.25, 1, 4);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(130, "Frigate drone alloys", 11732, "Sheen Compound", 0, 0.1, 1, 2);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(130, "Frigate drone alloys", 11733, "Motley Compound", 0, 0.1, 1, 2);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(130, "Frigate drone alloys", 11738, "Lucent Compound", 0, 0.1, 1, 2);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(130, "Frigate drone alloys", 11724, "Glossy Compound", 0, 0.05, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(130, "Frigate drone alloys", 11725, "Plush Compound", 0, 0.05, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(130, "Frigate drone alloys", 11734, "Opulent Compound", 0, 0.05, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(130, "Frigate drone alloys", 11736, "Lustering Alloy", 0, 0.05, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(131, "Destroyer drone alloys", 11735, "Dark Compound", 0, 0.25, 1, 6);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(131, "Destroyer drone alloys", 11737, "Precious Alloy", 0, 0.25, 1, 6);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(131, "Destroyer drone alloys", 11739, "Condensed Alloy", 0, 0.25, 1, 6);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(131, "Destroyer drone alloys", 11740, "Gleaming Alloy", 0, 0.25, 1, 6);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(131, "Destroyer drone alloys", 11741, "Crystal Compound", 0, 0.25, 1, 6);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(131, "Destroyer drone alloys", 11732, "Sheen Compound", 0, 0.15, 1, 2);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(131, "Destroyer drone alloys", 11733, "Motley Compound", 0, 0.15, 1, 2);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(131, "Destroyer drone alloys", 11738, "Lucent Compound", 0, 0.15, 1, 2);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(131, "Destroyer drone alloys", 11724, "Glossy Compound", 0, 0.1, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(131, "Destroyer drone alloys", 11725, "Plush Compound", 0, 0.1, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(131, "Destroyer drone alloys", 11734, "Opulent Compound", 0, 0.1, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(131, "Destroyer drone alloys", 11736, "Lustering Alloy", 0, 0.1, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(132, "Cruiser drone alloys", 11735, "Dark Compound", 0, 0.3, 1, 5);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(132, "Cruiser drone alloys", 11737, "Precious Alloy", 0, 0.3, 1, 5);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(132, "Cruiser drone alloys", 11739, "Condensed Alloy", 0, 0.3, 1, 5);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(132, "Cruiser drone alloys", 11740, "Gleaming Alloy", 0, 0.3, 1, 5);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(132, "Cruiser drone alloys", 11741, "Crystal Compound", 0, 0.3, 1, 5);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(132, "Cruiser drone alloys", 11732, "Sheen Compound", 0, 0.25, 1, 3);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(132, "Cruiser drone alloys", 11733, "Motley Compound", 0, 0.25, 1, 3);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(132, "Cruiser drone alloys", 11738, "Lucent Compound", 0, 0.25, 1, 3);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(132, "Cruiser drone alloys", 11724, "Glossy Compound", 0, 0.05, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(132, "Cruiser drone alloys", 11725, "Plush Compound", 0, 0.05, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(132, "Cruiser drone alloys", 11734, "Opulent Compound", 0, 0.05, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(132, "Cruiser drone alloys", 11736, "Lustering Alloy", 0, 0.05, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(133, "BattleCruiser drone alloys", 11735, "Dark Compound", 0, 0.3, 1, 7);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(133, "BattleCruiser drone alloys", 11737, "Precious Alloy", 0, 0.3, 1, 7);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(133, "BattleCruiser drone alloys", 11739, "Condensed Alloy", 0, 0.3, 1, 7);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(133, "BattleCruiser drone alloys", 11740, "Gleaming Alloy", 0, 0.3, 1, 7);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(133, "BattleCruiser drone alloys", 11741, "Crystal Compound", 0, 0.3, 1, 7);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(133, "BattleCruiser drone alloys", 11732, "Sheen Compound", 0, 0.25, 1, 6);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(133, "BattleCruiser drone alloys", 11733, "Motley Compound", 0, 0.25, 1, 6);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(133, "BattleCruiser drone alloys", 11738, "Lucent Compound", 0, 0.25, 1, 6);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(133, "BattleCruiser drone alloys", 11724, "Glossy Compound", 0, 0.1, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(133, "BattleCruiser drone alloys", 11725, "Plush Compound", 0, 0.1, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(133, "BattleCruiser drone alloys", 11734, "Opulent Compound", 0, 0.1, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(133, "BattleCruiser drone alloys", 11736, "Lustering Alloy", 0, 0.1, 1, 1);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(134, "Battleship drone alloys", 11735, "Dark Compound", 0, 0.3, 1, 10);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(134, "Battleship drone alloys", 11737, "Precious Alloy", 0, 0.3, 1, 10);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(134, "Battleship drone alloys", 11739, "Condensed Alloy", 0, 0.3, 1, 10);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(134, "Battleship drone alloys", 11740, "Gleaming Alloy", 0, 0.3, 1, 10);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(134, "Battleship drone alloys", 11741, "Crystal Compound", 0, 0.3, 1, 10);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(134, "Battleship drone alloys", 11732, "Sheen Compound", 0, 0.25, 1, 5);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(134, "Battleship drone alloys", 11733, "Motley Compound", 0, 0.25, 1, 5);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(134, "Battleship drone alloys", 11738, "Lucent Compound", 0, 0.25, 1, 5);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(134, "Battleship drone alloys", 11724, "Glossy Compound", 0, 0.25, 1, 5);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(134, "Battleship drone alloys", 11725, "Plush Compound", 0, 0.25, 1, 5);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(134, "Battleship drone alloys", 11734, "Opulent Compound", 0, 0.25, 1, 5);
+INSERT INTO lootItemGroup (itemGroupID, itemGroupName, itemID, itemName, itemMetaLevel, itemDropChance, minAmount, maxAmount) 
+  VALUES 
+(134, "Battleship drone alloys", 11736, "Lustering Alloy", 0, 0.25, 1, 5);
